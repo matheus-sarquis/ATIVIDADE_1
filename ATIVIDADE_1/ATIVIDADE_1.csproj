@@ -49,6 +49,8 @@
     <Compile Include="Animais\Gato.cs" />
     <Compile Include="Animais\Cachorro.cs" />
     <Compile Include="Animais\Baleia.cs" />
+    <Compile Include="Arvore Binaria\ArvoreBin.cs" />
+    <Compile Include="Arvore Binaria\Nodo.cs" />
     <Compile Include="Classes\Animal.cs" />
     <Compile Include="Classes\Ave.cs" />
     <Compile Include="Animais\Coruja.cs" />
@@ -81,6 +83,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Animais\Tartaruga.cs" />
+    <Compile Include="VG.cs" />
     <EmbeddedResource Include="frAddAnimal.resx">
       <DependentUpon>frAddAnimal.cs</DependentUpon>
     </EmbeddedResource>
@@ -109,5 +112,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,4 @@
-﻿using ATIVIDADE_1.Arvore_de_Pesquisa_Binaria;
+﻿using ATIVIDADE_1.Arvore_Binaria;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +9,6 @@ namespace ATIVIDADE_1
 {
     class VG
     {
-        public ArvoreBin arvore = new ArvoreBin();
+        ArvoreBin arvore = new ArvoreBin();
     }
 }
