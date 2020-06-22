@@ -34,6 +34,9 @@
             // btnAddAnimal
             // 
             this.btnAddAnimal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.btnAddAnimal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddAnimal.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddAnimal.ForeColor = System.Drawing.Color.White;
             this.btnAddAnimal.Location = new System.Drawing.Point(12, 12);
             this.btnAddAnimal.Name = "btnAddAnimal";
             this.btnAddAnimal.Size = new System.Drawing.Size(180, 56);
