@@ -50,7 +50,7 @@
             this.ClientSize = new System.Drawing.Size(1072, 587);
             this.Controls.Add(this.btnAddAnimal);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Menu";
             this.ResumeLayout(false);
 
         }
