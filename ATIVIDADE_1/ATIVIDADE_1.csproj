@@ -46,14 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animais\Gato.cs" />
+    <Compile Include="Animais\Cachorro.cs" />
+    <Compile Include="Animais\Baleia.cs" />
+    <Compile Include="Classes\Animal.cs" />
+    <Compile Include="Classes\Ave.cs" />
+    <Compile Include="Animais\Coruja.cs" />
+    <Compile Include="Animais\Gaviao.cs" />
+    <Compile Include="Interface\IAquatico.cs" />
+    <Compile Include="Interface\IOviparo.cs" />
+    <Compile Include="Interface\IPredador.cs" />
+    <Compile Include="Interface\IVoar.cs" />
+    <Compile Include="Classes\Reptil.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Classes\Mamifero.cs" />
+    <Compile Include="Animais\Morcego.cs" />
+    <Compile Include="Animais\Pato.cs" />
+    <Compile Include="Animais\Pombo.cs" />
+    <Compile Include="Animais\Ornitorrinco.cs" />
+    <Compile Include="Animais\Pinguim.cs" />
+    <Compile Include="Animais\Leao.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Animais\Tartaruga.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
