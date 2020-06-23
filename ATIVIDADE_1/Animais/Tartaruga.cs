@@ -18,6 +18,22 @@ namespace ATIVIDADE_1
         public bool ViveEmT { get => viveEmT; set => viveEmT = value; }
         #endregion
 
+        public Tartaruga(string nome, DateTime nasc, int idade, char sexo)
+        {
+            Nome = nome;
+            DataNasc = nasc;
+            Idade = idade;
+            Sexo = sexo;
+
+            Escamas = false;
+            Casco = true;
+            Mergulho = true;
+            ViveEmT = true;
+            AguaDoce = true;
+            Carnivoro = true;
+            Peconhento = false;
+        }
+
         public void Botar() { }
         public void Chocar() { }
     }

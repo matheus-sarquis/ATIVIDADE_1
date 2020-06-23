@@ -18,6 +18,22 @@ namespace ATIVIDADE_1
         public bool AguaDoce { get => aguaDoce; set => aguaDoce = value; }
         #endregion
 
+        public Pinguim(string nome, DateTime nasc, int idade, char sexo)
+        {
+            Nome = nome;
+            DataNasc = nasc;
+            Idade = idade;
+            Sexo = sexo;
+
+            Rapina = false;
+            CorPena = "Preta";
+            ViveEmT = true;
+            Mergulho = true;
+            AguaDoce = false;
+            Carnivoro = false;
+            Peconhento = false;
+        }
+
         public void Botar() { }
         public void Chocar() { }
     }

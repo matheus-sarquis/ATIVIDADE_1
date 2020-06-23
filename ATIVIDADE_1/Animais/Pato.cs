@@ -22,6 +22,24 @@ namespace ATIVIDADE_1
         public bool ViveEmT { get => viveEmT; set => viveEmT = value; }
         #endregion
 
+        public Pato(string nome, DateTime nasc, int idade, char sexo)
+        {
+            Nome = nome;
+            DataNasc = nasc;
+            Idade = idade;
+            Sexo = sexo;
+
+            Rapina = false;
+            CorPena = "Branco";
+            VelocidadeVoo = 52;
+            AltitudeMax = 1200;
+            AguaDoce = true;
+            Mergulho = true;
+            viveEmT = true;
+            Carnivoro = false;
+            Peconhento = false;
+        }
+
         public void Botar() { }
         public void Chocar() { }
         public void Voar() { }

@@ -9,5 +9,19 @@ namespace ATIVIDADE_1
     class Cachorro : Mamifero, IPredador
     {
         public void Atacar() { }
+
+        public Cachorro(string nome, DateTime nasc, int idade, char sexo)
+        {
+            Nome = nome;
+            DataNasc = nasc;
+            Sexo = sexo;
+            Idade = idade;
+
+            QtdMamas = 8;
+            CorPelo = "Marrom"; //mudar de acordo com a Imagem <---------------------
+            Pelo = true;
+            Carnivoro = true;
+            Peconhento = false;
+        }
     }
 }

@@ -16,6 +16,22 @@ namespace ATIVIDADE_1
         public double VelocidadeVoo { get => velocidadeVoo; set => velocidadeVoo = value; }
         #endregion
 
+        public Morcego(string nome, DateTime nasc, int idade, char sexo)
+        {
+            Nome = nome;
+            DataNasc = nasc;
+            Idade = idade;
+            Sexo = sexo;
+
+            QtdMamas = 2;
+            Pelo = true;
+            CorPelo = "Preto";
+            AltitudeMax = 10;
+            VelocidadeVoo = 130;
+            Carnivoro = false;
+            Peconhento = false;
+        }
+
         public void Atacar() { }
         public void Voar() { }        
     }

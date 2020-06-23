@@ -18,6 +18,23 @@ namespace ATIVIDADE_1
         public bool AguaDoce { get => aguaDoce; set => aguaDoce = value; }
         #endregion
 
+        public Ornitorrinco(string nome, DateTime nasc, int idade, char sexo)
+        {
+            Nome = nome;
+            DataNasc = nasc;
+            Idade = idade;
+            Sexo = sexo;
+
+            ViveEmT = true;
+            Mergulho = true;
+            AguaDoce = true;
+            Carnivoro = false;
+            Peconhento = true;
+            QtdMamas = 0;
+            Pelo = true;
+            CorPelo = "Marrom";
+        }
+
         public void Botar() { }
         public void Chocar() { }
     }

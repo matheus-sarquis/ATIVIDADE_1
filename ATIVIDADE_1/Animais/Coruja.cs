@@ -16,6 +16,21 @@ namespace ATIVIDADE_1
         public double VelocidadeVoo { get => velocidadeVoo; set => velocidadeVoo = value; }
         #endregion
 
+        public Coruja(string nome, DateTime nasc, int idade, char sexo)
+        {
+            Nome = nome;
+            DataNasc = nasc;
+            Sexo = sexo;
+            Idade = idade;
+
+            Rapina = true;
+            CorPena = "Marrom" ; //conferir com a imagem q será utilizada <--------------
+            Peconhento = false;
+            Carnivoro = true;
+            AltitudeMax = 20; //<------------------------
+            VelocidadeVoo = 15;
+        }
+
         public void Botar() { }
         public void Chocar() { }
         public void Voar() { }

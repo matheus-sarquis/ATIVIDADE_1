@@ -16,6 +16,21 @@ namespace ATIVIDADE_1
         public double VelocidadeVoo { get => velocidadeVoo; set => velocidadeVoo = value; }
         #endregion
 
+        public Gaviao(string nome, DateTime nasc, int idade, char sexo)
+        {
+            Nome = nome;
+            DataNasc = nasc;
+            Idade = idade;
+            Sexo = sexo;
+
+            Rapina = true;
+            CorPena = "Marrom"; //<-------------------------------------
+            AltitudeMax = 2400;
+            VelocidadeVoo = 320;
+            Carnivoro = true;
+            Peconhento = false;
+        }
+
         public void Botar() { }
         public void Chocar() { }
         public void Voar() { }
