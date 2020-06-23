@@ -8,7 +8,12 @@ namespace ATIVIDADE_1
 {
     class Reptil : Animal
     {
-        public bool escamas;
-        public bool casco;
+        #region Variáveis
+        private bool escamas;
+        private bool casco;
+
+        public bool Escamas { get => escamas; set => escamas = value; }
+        public bool Casco { get => casco; set => casco = value; }
+        #endregion
     }
 }

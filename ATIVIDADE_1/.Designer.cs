@@ -1,6 +1,6 @@
 ﻿namespace ATIVIDADE_1
 {
-    partial class Form1
+    partial class frPrincipal
     {
         /// <summary>
         /// Required designer variable.
@@ -40,6 +40,7 @@
             this.btnBaixo = new System.Windows.Forms.Button();
             this.btnEsquerda = new System.Windows.Forms.Button();
             this.btnMovimentar = new System.Windows.Forms.Button();
+            this.btnlistagem = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -187,12 +188,27 @@
             this.btnMovimentar.Text = "Movimentar";
             this.btnMovimentar.UseVisualStyleBackColor = false;
             // 
-            // Form1
+            // btnlistagem
+            // 
+            this.btnlistagem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.btnlistagem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnlistagem.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlistagem.ForeColor = System.Drawing.Color.White;
+            this.btnlistagem.Location = new System.Drawing.Point(12, 127);
+            this.btnlistagem.Name = "btnlistagem";
+            this.btnlistagem.Size = new System.Drawing.Size(198, 56);
+            this.btnlistagem.TabIndex = 12;
+            this.btnlistagem.Text = "Listagens";
+            this.btnlistagem.UseVisualStyleBackColor = false;
+            this.btnlistagem.Click += new System.EventHandler(this.btnlistagem_Click);
+            // 
+            // frPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(1072, 587);
+            this.Controls.Add(this.btnlistagem);
             this.Controls.Add(this.btnMovimentar);
             this.Controls.Add(this.btnEsquerda);
             this.Controls.Add(this.btnBaixo);
@@ -205,7 +221,7 @@
             this.Controls.Add(this.btnAmbiente1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnAddAnimal);
-            this.Name = "Form1";
+            this.Name = "frPrincipal";
             this.Text = "Menu";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -227,6 +243,7 @@
         private System.Windows.Forms.Button btnBaixo;
         private System.Windows.Forms.Button btnEsquerda;
         private System.Windows.Forms.Button btnMovimentar;
+        private System.Windows.Forms.Button btnlistagem;
     }
 }
 

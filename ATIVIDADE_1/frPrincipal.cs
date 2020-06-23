@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ATIVIDADE_1
 {
-    public partial class Form1 : Form
+    public partial class frPrincipal : Form
     {
-        public Form1()
+        public frPrincipal()
         {
             InitializeComponent();
         }
@@ -20,6 +20,12 @@ namespace ATIVIDADE_1
         private void btnAddAnimal_Click(object sender, EventArgs e)
         {
             frAddAnimal tela = new frAddAnimal();
+            tela.Show();
+        }
+
+        private void btnlistagem_Click(object sender, EventArgs e)
+        {            
+            frListar tela = new frListar();
             tela.Show();
         }
     }

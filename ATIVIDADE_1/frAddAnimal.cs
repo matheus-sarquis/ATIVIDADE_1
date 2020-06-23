@@ -17,11 +17,61 @@ namespace ATIVIDADE_1
             InitializeComponent();
         }
 
+        public void LimpaCampos()
+        {
+            txtData.Clear();
+            txtNome.Clear();
+            cbAnimal.Text = "";
+            cbCorPelos.Text = "";
+            cbCorPena.Text = "";
+            cbSexo.Text = "";
+            nupIdade.Value = 0;
+        }
+
         private void btnAdcionar_Click(object sender, EventArgs e)
         {
-            Animal animal = new Animal();
-            animal.Nome = txtNome.Text;
-            VG.arvore.Insere(animal);
+            switch (cbAnimal.SelectedItem)
+            {
+                case "Baleia":
+                    break;
+
+                case "Cachorro":
+                    break;
+
+                case "Coruja":
+                    break;
+
+                case "Gato":
+                    break;
+
+                case "Gavião":
+                    break;
+
+                case "Leão":
+                    break;
+
+                case "Morcego":
+                    break;
+
+                case "Ornitorrinco":
+                    break;
+
+                case "Pato":
+                    break;
+
+                case "Pinguim":
+                    break;
+
+                case "Pombo":
+                    break;
+
+                case "Tartaruga":
+                    break;
+
+                default:
+                    MessageBox.Show("Selecione um Animal");
+                    break;
+            }
         }
     }
 }

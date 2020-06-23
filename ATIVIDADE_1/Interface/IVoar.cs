@@ -8,8 +8,9 @@ namespace ATIVIDADE_1
 {
     public interface IVoar
     {
-        void Voar();
-        int altitudeMax { get; set; }
-        double velocidadeVoo { get; set; }
+        int AltitudeMax { get; set; }
+        double VelocidadeVoo { get; set; }
+
+        void Voar();        
     }
 }

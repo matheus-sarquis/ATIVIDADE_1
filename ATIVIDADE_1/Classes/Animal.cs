@@ -8,6 +8,7 @@ namespace ATIVIDADE_1
 {
     class Animal
     {
+        #region Variáveis
         private string nome;
         private DateTime dataNasc;
         private char sexo;
@@ -21,11 +22,10 @@ namespace ATIVIDADE_1
         public bool Carnivoro { get => carnivoro; set => carnivoro = value; }
         public bool Peçnhento { get => peçnhento; set => peçnhento = value; }
         public int Idade { get => idade; set => idade = value; }
+        #endregion
 
         public void Movimentar() { }
-
         public void Comunicar() { }
-
         public void Alimentar() { }
     }
 }

@@ -8,6 +8,7 @@ namespace ATIVIDADE_1
 {
     class Mamifero : Animal
     {
+        #region Variáveis
         private int qtdMamas;
         private bool pelo;
         private string corPelo;
@@ -15,7 +16,8 @@ namespace ATIVIDADE_1
         public int QtdMamas { get => qtdMamas; set => qtdMamas = value; }
         public bool Pelo { get => pelo; set => pelo = value; }
         public string CorPelo { get => corPelo; set => corPelo = value; }
-
+        #endregion
+        
         public void Amamentar() { }
     }
 }

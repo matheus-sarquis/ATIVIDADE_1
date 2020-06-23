@@ -8,8 +8,8 @@ namespace ATIVIDADE_1
 {
     public interface IAquatico
     {
-        bool viveEmT { get; set; }
-        bool mergulho { get; set; }
-        bool aguaDoce { get; set; }
+        bool ViveEmT { get; set; }
+        bool Mergulho { get; set; }
+        bool AguaDoce { get; set; }
     }
 }

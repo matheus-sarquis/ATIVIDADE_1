@@ -8,8 +8,13 @@ namespace ATIVIDADE_1
 {
     class Coruja : Ave, IOviparo, IVoar, IPredador
     {
-        public int altitudeMax { get; set; }
-        public double velocidadeVoo { get; set; }
+        #region Variáveis
+        private int altitudeMax;
+        private double velocidadeVoo;
+
+        public int AltitudeMax { get => altitudeMax; set => altitudeMax = value; }
+        public double VelocidadeVoo { get => velocidadeVoo; set => velocidadeVoo = value; }
+        #endregion
 
         public void Botar() { }
         public void Chocar() { }

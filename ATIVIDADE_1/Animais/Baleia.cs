@@ -8,8 +8,24 @@ namespace ATIVIDADE_1
 {
     class Baleia : Mamifero, IAquatico
     {
-        public bool viveEmT { get; set; }
-        public bool mergulho { get; set; }
-        public bool aguaDoce { get; set; }
+        #region Variáveis
+        private bool viveEmT;
+        private bool mergulho;
+        private bool aguaDoce;
+
+        public bool ViveEmT { get => viveEmT; set => viveEmT = value; }
+        public bool Mergulho { get => mergulho; set => mergulho = value; }
+        public bool AguaDoce { get => aguaDoce; set => aguaDoce = value; }
+        #endregion
+
+        public Baleia(string nome, DateTime nasc)
+        {
+            Nome = nome;
+            DataNasc = nasc;
+
+            ViveEmT = false;
+            Mergulho = true;
+            AguaDoce = false;
+        }        
     }
 }
