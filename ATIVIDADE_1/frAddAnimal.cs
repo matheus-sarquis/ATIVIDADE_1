@@ -157,6 +157,26 @@ namespace ATIVIDADE_1
                         VG.arvore.Insere(tartaruga);
                         break;
 
+                    case "Tubarão":
+                        Tubarao tubarao = new Tubarao(txtNome.Text, Convert.ToDateTime(txtData.Text));
+                        if (cbSexo.Text == "Macho")
+                            tubarao.Sexo = 'm';
+                        else
+                            tubarao.Sexo = 'f';
+                        tubarao.Idade = Convert.ToInt32(nupIdade.Value);
+                        VG.arvore.Insere(tubarao);
+                        break;
+
+                    case "Esquilo":
+                        Esquilo esquilo = new Esquilo(txtNome.Text, Convert.ToDateTime(txtData.Text));
+                        if (cbSexo.Text == "Macho")
+                            esquilo.Sexo = 'm';
+                        else
+                            esquilo.Sexo = 'f';
+                        esquilo.Idade = Convert.ToInt32(nupIdade.Value);
+                        VG.arvore.Insere(esquilo);
+                        break;
+
                     default:
                         MessageBox.Show("Selecione um Animal");
                         break;
