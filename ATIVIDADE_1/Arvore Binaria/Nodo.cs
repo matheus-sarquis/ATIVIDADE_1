@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ATIVIDADE_1.Arvore_Binaria
+namespace ATIVIDADE_1
 {
     // classe para reprentar 1 Nodo na árvore
     class Nodo
@@ -12,9 +12,9 @@ namespace ATIVIDADE_1.Arvore_Binaria
         private Nodo no_pai = null;
         private Nodo no_direita = null;
         private Nodo no_esquerda = null;
-        private int valor = 0;
-        public int GetValor() { return valor; }
-        public void SetValor(int v) { valor = v; }
+        private Animal valor;
+        public Animal GetAnimal() { return valor; }
+        public void SetValor(Animal v) { valor = v; }
         public void SetNoPai(Nodo no) { no_pai = no; }
         public void SetNoDireita(Nodo no) { no_direita = no; }
         public void SetNoEsquerda(Nodo no) { no_esquerda = no; }

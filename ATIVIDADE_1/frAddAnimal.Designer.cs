@@ -40,11 +40,11 @@
             this.nupIdade = new System.Windows.Forms.NumericUpDown();
             this.gpPadrao = new System.Windows.Forms.GroupBox();
             this.gpMamifero = new System.Windows.Forms.GroupBox();
+            this.cbCorPelos = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.gbAve = new System.Windows.Forms.GroupBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.cbCorPelos = new System.Windows.Forms.ComboBox();
             this.cbCorPena = new System.Windows.Forms.ComboBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.btnAdcionar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nupIdade)).BeginInit();
             this.gpPadrao.SuspendLayout();
@@ -186,6 +186,14 @@
             this.gpMamifero.TabStop = false;
             this.gpMamifero.Text = "Mamífero";
             // 
+            // cbCorPelos
+            // 
+            this.cbCorPelos.FormattingEnabled = true;
+            this.cbCorPelos.Location = new System.Drawing.Point(111, 19);
+            this.cbCorPelos.Name = "cbCorPelos";
+            this.cbCorPelos.Size = new System.Drawing.Size(152, 21);
+            this.cbCorPelos.TabIndex = 17;
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -207,6 +215,14 @@
             this.gbAve.TabStop = false;
             this.gbAve.Text = "Voa";
             // 
+            // cbCorPena
+            // 
+            this.cbCorPena.FormattingEnabled = true;
+            this.cbCorPena.Location = new System.Drawing.Point(108, 19);
+            this.cbCorPena.Name = "cbCorPena";
+            this.cbCorPena.Size = new System.Drawing.Size(155, 21);
+            this.cbCorPena.TabIndex = 18;
+            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -216,22 +232,6 @@
             this.label12.Size = new System.Drawing.Size(96, 23);
             this.label12.TabIndex = 17;
             this.label12.Text = "Cor da pena:";
-            // 
-            // cbCorPelos
-            // 
-            this.cbCorPelos.FormattingEnabled = true;
-            this.cbCorPelos.Location = new System.Drawing.Point(111, 19);
-            this.cbCorPelos.Name = "cbCorPelos";
-            this.cbCorPelos.Size = new System.Drawing.Size(152, 21);
-            this.cbCorPelos.TabIndex = 17;
-            // 
-            // cbCorPena
-            // 
-            this.cbCorPena.FormattingEnabled = true;
-            this.cbCorPena.Location = new System.Drawing.Point(108, 19);
-            this.cbCorPena.Name = "cbCorPena";
-            this.cbCorPena.Size = new System.Drawing.Size(155, 21);
-            this.cbCorPena.TabIndex = 18;
             // 
             // btnAdcionar
             // 
@@ -245,6 +245,7 @@
             this.btnAdcionar.TabIndex = 17;
             this.btnAdcionar.Text = "Adcionar";
             this.btnAdcionar.UseVisualStyleBackColor = false;
+            this.btnAdcionar.Click += new System.EventHandler(this.btnAdcionar_Click);
             // 
             // frAddAnimal
             // 

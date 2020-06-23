@@ -10,18 +10,16 @@ using System.Windows.Forms;
 
 namespace ATIVIDADE_1
 {
-    public partial class frAddAnimal : Form
+    public partial class frListar : Form
     {
-        public frAddAnimal()
+        public frListar()
         {
             InitializeComponent();
         }
 
-        private void btnAdcionar_Click(object sender, EventArgs e)
-        {
-            Animal animal = new Animal();
-            animal.Nome = txtNome.Text;
-            VG.arvore.Insere(animal);
+        private void btnListAll_Click(object sender, EventArgs e)
+        {           
+           
         }
     }
 }

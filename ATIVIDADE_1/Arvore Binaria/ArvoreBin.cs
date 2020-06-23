@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ATIVIDADE_1.Arvore_Binaria
+namespace ATIVIDADE_1
 {
     class ArvoreBin
     {
         private Nodo raiz = null; // raiz da árvore
         private int qtdeNodosInternos = 0; // qtde de nos internos
         private string resultado = ""; // utilizada na listagem dos nodos 
-                                       /// <summary>
-                                       /// Returna a qtde de nós internos
-                                       /// </summary>
-                                       /// <returns></returns>
+        /// <summary>
+        /// Returna a qtde de nós internos
+        /// </summary>
+        /// <returns></returns>
         public int QtdeNodosInternos() // devolve a qtde de nós internos
         {
             return qtdeNodosInternos;
@@ -23,7 +23,7 @@ namespace ATIVIDADE_1.Arvore_Binaria
         /// Insere um valor na árvore. Não aceita valores repetidos!!!
         /// </summary>
         /// <param name="valor">valor a ser inserido</param>
-        public void Insere(int valor) // insere um valor int
+        public void Insere(Animal valor) // insere um valor int
         {
             Nodo no_aux;
             if (qtdeNodosInternos == 0) // árvore vazia!
@@ -54,7 +54,7 @@ namespace ATIVIDADE_1.Arvore_Binaria
             if (no.EhExterno())
                 return;
             PercursoInterfixado(no.GetNoEsquerda());
-            resultado = resultado + " - " + Convert.ToInt32(no.GetValor());
+            resultado = resultado + " - " + Convert.ToInt32(no.GetAnimal());
             PercursoInterfixado(no.GetNoDireita());
         }
         /// <summary>
@@ -75,13 +75,13 @@ namespace ATIVIDADE_1.Arvore_Binaria
         /// <param name="valor"></param>
         /// <param name="no"></param>
         /// <returns></returns>
-        private Nodo PesquisaValor(int valor, Nodo no)
+        private Nodo PesquisaValor(Animal valor, Nodo no)
         {
             if (no.EhExterno())
                 return no; // não achou!
-            else if (no.GetValor() == valor)
+            else if (valor.Nome.CompareTo(no.GetAnimal().Nome) == 0)
                 return no;
-            else if (valor > no.GetValor())
+            else if (valor.Nome.CompareTo(no.GetAnimal().Nome) == 1)
                 return PesquisaValor(valor, no.GetNoDireita());
             else
                 return PesquisaValor(valor, no.GetNoEsquerda());
@@ -90,7 +90,7 @@ namespace ATIVIDADE_1.Arvore_Binaria
         /// Remove um valor da árvore
         /// </summary>
         /// <param name="valor"></param>
-        public void Remove(int valor)
+        public void Remove(Animal valor)
         {
             //primeiro, procuramos o nodo que tem o valor:
             Nodo noQueSeraApagado = PesquisaValor(valor, raiz);
@@ -162,9 +162,9 @@ namespace ATIVIDADE_1.Arvore_Binaria
         {
             //encontra o nodo substituto
             Nodo NodoSubstituto = PesquisaNodoInternoInterfixado(noQueSeraApagado.GetNoDireita());
-            Console.Write("Nodo substituto: " + NodoSubstituto.GetValor());
+            Console.Write("Nodo substituto: " + NodoSubstituto.GetAnimal());
             //Altera o valor do nodo que será removido pelo valor do nodo substituto
-            noQueSeraApagado.SetValor(NodoSubstituto.GetValor());
+            noQueSeraApagado.SetValor(NodoSubstituto.GetAnimal());
             //Remove o nodo substituto
             ExcluiComNodoExterno(NodoSubstituto);
         }

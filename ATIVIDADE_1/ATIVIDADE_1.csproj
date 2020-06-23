@@ -61,6 +61,12 @@
     <Compile Include="frAddAnimal.Designer.cs">
       <DependentUpon>frAddAnimal.cs</DependentUpon>
     </Compile>
+    <Compile Include="frListar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frListar.Designer.cs">
+      <DependentUpon>frListar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interface\IAquatico.cs" />
     <Compile Include="Interface\IOviparo.cs" />
     <Compile Include="Interface\IPredador.cs" />
@@ -86,6 +92,9 @@
     <Compile Include="VG.cs" />
     <EmbeddedResource Include="frAddAnimal.resx">
       <DependentUpon>frAddAnimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frListar.resx">
+      <DependentUpon>frListar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frPrincipal.resx">
       <DependentUpon>frPrincipal.cs</DependentUpon>

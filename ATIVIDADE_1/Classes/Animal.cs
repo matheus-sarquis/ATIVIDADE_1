@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ATIVIDADE_1
 {
-    abstract class Animal
+    class Animal
     {
         private string nome;
         private DateTime dataNasc;
