@@ -10,7 +10,7 @@ namespace ATIVIDADE_1
     {
         public void Atacar() { }
 
-        public Cachorro(string nome, DateTime nasc, int idade, char sexo)
+        public Cachorro(string nome, DateTime nasc, char sexo, int idade)
         {
             Nome = nome;
             DataNasc = nasc;
