@@ -35,145 +35,147 @@ namespace ATIVIDADE_1
                     MessageBox.Show("Preencha todos os campos");
                     break;
                 }
+                char sexo = ' ';
+                int idade = 0;
                 switch (cbAnimal.SelectedItem)
                 {
-                    case "Baleia":
-                        Baleia baleia = new Baleia(txtNome.Text, Convert.ToDateTime(txtData.Text));
+                    case "Baleia":                        
                         if (cbSexo.Text == "Macho")
-                            baleia.Sexo = 'm';
+                           sexo = 'm';
                         else
-                            baleia.Sexo = 'f';
-                        baleia.Idade = Convert.ToInt32(nupIdade.Value);
+                            sexo = 'f';
+                        idade = Convert.ToInt32(nupIdade.Value);
+                        Baleia baleia = new Baleia(txtNome.Text, Convert.ToDateTime(txtData.Text),sexo, idade);
                         VG.arvore.Insere(baleia);
                         break;
 
                     case "Cachorro":
-                        Cachorro cachorro = new Cachorro(txtNome.Text, Convert.ToDateTime(txtData.Text));
                         if (cbSexo.Text == "Macho")
-                            cachorro.Sexo = 'm';
+                            sexo = 'm';
                         else
-                            cachorro.Sexo = 'f';
-                        cachorro.Idade = Convert.ToInt32(nupIdade.Value);
+                            sexo = 'f';
+                        idade = Convert.ToInt32(nupIdade.Value);
+                        Cachorro cachorro = new Cachorro(txtNome.Text, Convert.ToDateTime(txtData.Text), sexo, idade);
                         VG.arvore.Insere(cachorro);
                         break;
 
                     case "Coruja":
-                        Coruja coruja = new Coruja(txtNome.Text, Convert.ToDateTime(txtData.Text));
                         if (cbSexo.Text == "Macho")
-                            coruja.Sexo = 'm';
+                            sexo = 'm';
                         else
-                            coruja.Sexo = 'f';
-                        coruja.Idade = Convert.ToInt32(nupIdade.Value);
+                            sexo = 'f';
+                        idade = Convert.ToInt32(nupIdade.Value);
+                        Coruja coruja = new Coruja(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
                         VG.arvore.Insere(coruja);
                         break;
 
                     case "Gato":
-                        Gato gato = new Gato(txtNome.Text, Convert.ToDateTime(txtData.Text));
                         if (cbSexo.Text == "Macho")
-                            gato.Sexo = 'm';
+                            sexo = 'm';
                         else
-                            gato.Sexo = 'f';
-                        gato.Idade = Convert.ToInt32(nupIdade.Value);
+                            sexo = 'f';
+                        idade = Convert.ToInt32(nupIdade.Value);
+                        Gato gato = new Gato(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
                         VG.arvore.Insere(gato);
                         break;
 
                     case "Gavião":
-                        Gaviao gaviao = new Gaviao(txtNome.Text, Convert.ToDateTime(txtData.Text));
                         if (cbSexo.Text == "Macho")
-                            gaviao.Sexo = 'm';
+                            sexo = 'm';
                         else
-                            gaviao.Sexo = 'f';
-                        gaviao.Idade = Convert.ToInt32(nupIdade.Value);
+                            sexo = 'f';
+                        idade = Convert.ToInt32(nupIdade.Value);
+                        Gaviao gaviao = new Gaviao(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
                         VG.arvore.Insere(gaviao);
                         break;
 
                     case "Leão":
-                        Leao leao = new Leao(txtNome.Text, Convert.ToDateTime(txtData.Text));
                         if (cbSexo.Text == "Macho")
-                            leao.Sexo = 'm';
+                            sexo = 'm';
                         else
-                            leao.Sexo = 'f';
-                        leao.Idade = Convert.ToInt32(nupIdade.Value);
+                            sexo = 'f';
+                        idade = Convert.ToInt32(nupIdade.Value);
+                        Leao leao = new Leao(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
                         VG.arvore.Insere(leao);
                         break;
 
                     case "Morcego":
-                        Morcego morcego = new Morcego(txtNome.Text, Convert.ToDateTime(txtData.Text));
                         if (cbSexo.Text == "Macho")
-                            morcego.Sexo = 'm';
+                            sexo = 'm';
                         else
-                            morcego.Sexo = 'f';
-                        morcego.Idade = Convert.ToInt32(nupIdade.Value);
+                            sexo = 'f';
+                        idade = Convert.ToInt32(nupIdade.Value);
+                        Morcego morcego = new Morcego(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
                         VG.arvore.Insere(morcego);
                         break;
 
                     case "Ornitorrinco":
-                        Ornitorrinco ornitorrinco = new Ornitorrinco(txtNome.Text, Convert.ToDateTime(txtData.Text));
                         if (cbSexo.Text == "Macho")
-                            ornitorrinco.Sexo = 'm';
+                            sexo = 'm';
                         else
-                            ornitorrinco.Sexo = 'f';
-                        ornitorrinco.Idade = Convert.ToInt32(nupIdade.Value);
-                        VG.arvore.Insere(ornitorrinco);
+                            sexo = 'f';
+                        idade = Convert.ToInt32(nupIdade.Value);
+                        Ornitorrinco ornito = new Ornitorrinco(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo );
+                        VG.arvore.Insere(ornito);
                         break;
 
                     case "Pato":
-                        Pato pato = new Pato(txtNome.Text, Convert.ToDateTime(txtData.Text));
                         if (cbSexo.Text == "Macho")
-                            pato.Sexo = 'm';
+                            sexo = 'm';
                         else
-                            pato.Sexo = 'f';
-                        pato.Idade = Convert.ToInt32(nupIdade.Value);
+                            sexo = 'f';
+                        idade = Convert.ToInt32(nupIdade.Value);
+                        Pato pato = new Pato(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
                         VG.arvore.Insere(pato);
                         break;
 
                     case "Pinguim":
-                        Pinguim pinguim = new Pinguim(txtNome.Text, Convert.ToDateTime(txtData.Text));
                         if (cbSexo.Text == "Macho")
-                            pinguim.Sexo = 'm';
+                            sexo = 'm';
                         else
-                            pinguim.Sexo = 'f';
-                        pinguim.Idade = Convert.ToInt32(nupIdade.Value);
+                            sexo = 'f';
+                        idade = Convert.ToInt32(nupIdade.Value);
+                        Pinguim pinguim = new Pinguim(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
                         VG.arvore.Insere(pinguim);
                         break;
 
                     case "Pombo":
-                        Pombo pombo = new Pombo(txtNome.Text, Convert.ToDateTime(txtData.Text));
                         if (cbSexo.Text == "Macho")
-                            pombo.Sexo = 'm';
+                            sexo = 'm';
                         else
-                            pombo.Sexo = 'f';
-                        pombo.Idade = Convert.ToInt32(nupIdade.Value);
+                            sexo = 'f';
+                        idade = Convert.ToInt32(nupIdade.Value);
+                        Pombo pombo = new Pombo(txtNome.Text, Convert.ToDateTime(txtData.Text), idade,sexo);
                         VG.arvore.Insere(pombo);
                         break;
 
                     case "Tartaruga":
-                        Tartaruga tartaruga = new Tartaruga(txtNome.Text, Convert.ToDateTime(txtData.Text));
                         if (cbSexo.Text == "Macho")
-                            tartaruga.Sexo = 'm';
+                            sexo = 'm';
                         else
-                            tartaruga.Sexo = 'f';
-                        tartaruga.Idade = Convert.ToInt32(nupIdade.Value);
+                            sexo = 'f';
+                        idade = Convert.ToInt32(nupIdade.Value);
+                        Tartaruga tartaruga = new Tartaruga(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
                         VG.arvore.Insere(tartaruga);
                         break;
 
                     case "Tubarão":
-                        Tubarao tubarao = new Tubarao(txtNome.Text, Convert.ToDateTime(txtData.Text));
                         if (cbSexo.Text == "Macho")
-                            tubarao.Sexo = 'm';
+                            sexo = 'm';
                         else
-                            tubarao.Sexo = 'f';
-                        tubarao.Idade = Convert.ToInt32(nupIdade.Value);
+                            sexo = 'f';
+                        idade = Convert.ToInt32(nupIdade.Value);
+                        Tubarao tubarao = new Tubarao(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
                         VG.arvore.Insere(tubarao);
                         break;
 
                     case "Esquilo":
-                        Esquilo esquilo = new Esquilo(txtNome.Text, Convert.ToDateTime(txtData.Text));
                         if (cbSexo.Text == "Macho")
-                            esquilo.Sexo = 'm';
+                            sexo = 'm';
                         else
-                            esquilo.Sexo = 'f';
-                        esquilo.Idade = Convert.ToInt32(nupIdade.Value);
+                            sexo = 'f';
+                        idade = Convert.ToInt32(nupIdade.Value);
+                        Esquilo esquilo = new Esquilo(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
                         VG.arvore.Insere(esquilo);
                         break;
 
@@ -182,6 +184,7 @@ namespace ATIVIDADE_1
                         break;
                 }
                 LimpaCampos();
+                break;
             } while (1 == 1);
         }
     }

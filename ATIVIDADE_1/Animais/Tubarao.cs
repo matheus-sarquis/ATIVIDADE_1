@@ -21,14 +21,18 @@ namespace ATIVIDADE_1
         public void Botar() { }
         public void Chocar() { }
 
-        public Tubarao(string nome, DateTime nasc)
+        public Tubarao(string nome, DateTime nasc, int idade, char sexo)
         {
             Nome = nome;
             DataNasc = nasc;
+            Idade = idade;
+            Sexo = sexo;
 
             ViveEmT = false;
             Mergulho = true;
             AguaDoce = false;
+            Carnivoro = true;
+            Peconhento = false;
         }
     }
 }
