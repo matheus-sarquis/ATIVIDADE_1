@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btnAddAnimal = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbAmbiente1 = new System.Windows.Forms.PictureBox();
             this.btnAmbiente1 = new System.Windows.Forms.Button();
             this.btnAmbiente2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -41,7 +41,7 @@
             this.btnEsquerda = new System.Windows.Forms.Button();
             this.btnMovimentar = new System.Windows.Forms.Button();
             this.btnlistagem = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbAmbiente1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAddAnimal
@@ -58,13 +58,15 @@
             this.btnAddAnimal.UseVisualStyleBackColor = false;
             this.btnAddAnimal.Click += new System.EventHandler(this.btnAddAnimal_Click);
             // 
-            // pictureBox1
+            // pbAmbiente1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(216, 74);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(846, 501);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.pbAmbiente1.Image = global::ATIVIDADE_1.Properties.Resources.WhatsApp_Image_2020_06_23_at_17_21_29;
+            this.pbAmbiente1.Location = new System.Drawing.Point(216, 74);
+            this.pbAmbiente1.Name = "pbAmbiente1";
+            this.pbAmbiente1.Size = new System.Drawing.Size(1021, 597);
+            this.pbAmbiente1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbAmbiente1.TabIndex = 1;
+            this.pbAmbiente1.TabStop = false;
             // 
             // btnAmbiente1
             // 
@@ -72,12 +74,13 @@
             this.btnAmbiente1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAmbiente1.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAmbiente1.ForeColor = System.Drawing.Color.White;
-            this.btnAmbiente1.Location = new System.Drawing.Point(216, 12);
+            this.btnAmbiente1.Location = new System.Drawing.Point(391, 12);
             this.btnAmbiente1.Name = "btnAmbiente1";
             this.btnAmbiente1.Size = new System.Drawing.Size(278, 56);
             this.btnAmbiente1.TabIndex = 2;
             this.btnAmbiente1.Text = "Ambiente 1";
             this.btnAmbiente1.UseVisualStyleBackColor = false;
+            this.btnAmbiente1.Click += new System.EventHandler(this.btnAmbiente1_Click);
             // 
             // btnAmbiente2
             // 
@@ -85,12 +88,13 @@
             this.btnAmbiente2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAmbiente2.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAmbiente2.ForeColor = System.Drawing.Color.White;
-            this.btnAmbiente2.Location = new System.Drawing.Point(500, 12);
+            this.btnAmbiente2.Location = new System.Drawing.Point(675, 12);
             this.btnAmbiente2.Name = "btnAmbiente2";
             this.btnAmbiente2.Size = new System.Drawing.Size(278, 56);
             this.btnAmbiente2.TabIndex = 3;
             this.btnAmbiente2.Text = "Ambiente 2";
             this.btnAmbiente2.UseVisualStyleBackColor = false;
+            this.btnAmbiente2.Click += new System.EventHandler(this.btnAmbiente2_Click);
             // 
             // label1
             // 
@@ -116,12 +120,13 @@
             this.btnAmbiente3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAmbiente3.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAmbiente3.ForeColor = System.Drawing.Color.White;
-            this.btnAmbiente3.Location = new System.Drawing.Point(784, 12);
+            this.btnAmbiente3.Location = new System.Drawing.Point(959, 12);
             this.btnAmbiente3.Name = "btnAmbiente3";
             this.btnAmbiente3.Size = new System.Drawing.Size(278, 56);
             this.btnAmbiente3.TabIndex = 6;
             this.btnAmbiente3.Text = "Ambiente 3";
             this.btnAmbiente3.UseVisualStyleBackColor = false;
+            this.btnAmbiente3.Click += new System.EventHandler(this.btnAmbiente3_Click);
             // 
             // btnDireita
             // 
@@ -129,7 +134,7 @@
             this.btnDireita.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDireita.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDireita.ForeColor = System.Drawing.Color.White;
-            this.btnDireita.Location = new System.Drawing.Point(142, 519);
+            this.btnDireita.Location = new System.Drawing.Point(142, 614);
             this.btnDireita.Name = "btnDireita";
             this.btnDireita.Size = new System.Drawing.Size(56, 56);
             this.btnDireita.TabIndex = 7;
@@ -142,7 +147,7 @@
             this.btnCima.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCima.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCima.ForeColor = System.Drawing.Color.White;
-            this.btnCima.Location = new System.Drawing.Point(79, 457);
+            this.btnCima.Location = new System.Drawing.Point(79, 552);
             this.btnCima.Name = "btnCima";
             this.btnCima.Size = new System.Drawing.Size(56, 56);
             this.btnCima.TabIndex = 8;
@@ -155,7 +160,7 @@
             this.btnBaixo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBaixo.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBaixo.ForeColor = System.Drawing.Color.White;
-            this.btnBaixo.Location = new System.Drawing.Point(79, 519);
+            this.btnBaixo.Location = new System.Drawing.Point(79, 614);
             this.btnBaixo.Name = "btnBaixo";
             this.btnBaixo.Size = new System.Drawing.Size(56, 56);
             this.btnBaixo.TabIndex = 9;
@@ -168,7 +173,7 @@
             this.btnEsquerda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEsquerda.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEsquerda.ForeColor = System.Drawing.Color.White;
-            this.btnEsquerda.Location = new System.Drawing.Point(16, 519);
+            this.btnEsquerda.Location = new System.Drawing.Point(16, 614);
             this.btnEsquerda.Name = "btnEsquerda";
             this.btnEsquerda.Size = new System.Drawing.Size(56, 56);
             this.btnEsquerda.TabIndex = 10;
@@ -181,7 +186,7 @@
             this.btnMovimentar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMovimentar.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMovimentar.ForeColor = System.Drawing.Color.White;
-            this.btnMovimentar.Location = new System.Drawing.Point(12, 395);
+            this.btnMovimentar.Location = new System.Drawing.Point(12, 490);
             this.btnMovimentar.Name = "btnMovimentar";
             this.btnMovimentar.Size = new System.Drawing.Size(198, 56);
             this.btnMovimentar.TabIndex = 11;
@@ -194,9 +199,9 @@
             this.btnlistagem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnlistagem.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlistagem.ForeColor = System.Drawing.Color.White;
-            this.btnlistagem.Location = new System.Drawing.Point(12, 127);
+            this.btnlistagem.Location = new System.Drawing.Point(216, 12);
             this.btnlistagem.Name = "btnlistagem";
-            this.btnlistagem.Size = new System.Drawing.Size(198, 56);
+            this.btnlistagem.Size = new System.Drawing.Size(169, 56);
             this.btnlistagem.TabIndex = 12;
             this.btnlistagem.Text = "Listagens";
             this.btnlistagem.UseVisualStyleBackColor = false;
@@ -207,7 +212,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(1072, 587);
+            this.ClientSize = new System.Drawing.Size(1249, 683);
             this.Controls.Add(this.btnlistagem);
             this.Controls.Add(this.btnMovimentar);
             this.Controls.Add(this.btnEsquerda);
@@ -219,11 +224,11 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAmbiente2);
             this.Controls.Add(this.btnAmbiente1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbAmbiente1);
             this.Controls.Add(this.btnAddAnimal);
             this.Name = "frPrincipal";
             this.Text = "Menu";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbAmbiente1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -232,7 +237,6 @@
         #endregion
 
         private System.Windows.Forms.Button btnAddAnimal;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnAmbiente1;
         private System.Windows.Forms.Button btnAmbiente2;
         private System.Windows.Forms.Label label1;
@@ -244,6 +248,7 @@
         private System.Windows.Forms.Button btnEsquerda;
         private System.Windows.Forms.Button btnMovimentar;
         private System.Windows.Forms.Button btnlistagem;
+        private System.Windows.Forms.PictureBox pbAmbiente1;
     }
 }
 

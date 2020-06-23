@@ -28,5 +28,26 @@ namespace ATIVIDADE_1
             frListar tela = new frListar();
             tela.Show();
         }
+
+        private void btnAmbiente1_Click(object sender, EventArgs e)
+        {
+            pbAmbiente1.Visible = true;
+            //pbAmbiente2.Visible = false;
+            //pbAmbiente3.Visible = false;
+        }
+
+        private void btnAmbiente2_Click(object sender, EventArgs e)
+        {
+            pbAmbiente1.Visible = false;
+            //pbAmbiente2.Visible = true;
+            //pbAmbiente3.Visible = false;
+        }
+
+        private void btnAmbiente3_Click(object sender, EventArgs e)
+        {
+            pbAmbiente1.Visible = false;
+            //pbAmbiente2.Visible = false;
+            //pbAmbiente3.Visible = true;
+        }
     }
 }
