@@ -61,6 +61,7 @@
             "Baleia",
             "Cachorro",
             "Coruja",
+            "Esquilo",
             "Gato",
             "Gavião",
             "Leão",
@@ -69,7 +70,8 @@
             "Pato",
             "Pinguim",
             "Pombo",
-            "Tartaruga"});
+            "Tartaruga",
+            "Tubarão"});
             this.cbAnimal.Location = new System.Drawing.Point(265, 28);
             this.cbAnimal.Name = "cbAnimal";
             this.cbAnimal.Size = new System.Drawing.Size(156, 21);

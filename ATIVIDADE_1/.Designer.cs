@@ -113,6 +113,7 @@
             this.cbAnimal.Name = "cbAnimal";
             this.cbAnimal.Size = new System.Drawing.Size(198, 21);
             this.cbAnimal.TabIndex = 5;
+            this.cbAnimal.Click += new System.EventHandler(this.cbAnimal_Click);
             // 
             // btnAmbiente3
             // 

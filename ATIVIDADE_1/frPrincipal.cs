@@ -49,5 +49,14 @@ namespace ATIVIDADE_1
             //pbAmbiente2.Visible = false;
             //pbAmbiente3.Visible = true;
         }
+
+        private void cbAnimal_Click(object sender, EventArgs e)
+        {
+            cbAnimal.Items.Clear();
+            foreach (var item in )
+            {
+                cbAnimal.Items.Add(item.)
+            }
+        }
     }
 }
