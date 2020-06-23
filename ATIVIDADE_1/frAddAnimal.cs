@@ -45,7 +45,7 @@ namespace ATIVIDADE_1
                         else
                             sexo = 'f';
                         idade = Convert.ToInt32(nupIdade.Value);
-                        Baleia baleia = new Baleia(txtNome.Text, Convert.ToDateTime(txtData.Text),sexo, idade);
+                        Baleia baleia = new Baleia(txtNome.Text, Convert.ToDateTime(txtData.Text), sexo, idade);
                         VG.arvore.Insere(baleia);
                         break;
 
@@ -145,7 +145,7 @@ namespace ATIVIDADE_1
                         else
                             sexo = 'f';
                         idade = Convert.ToInt32(nupIdade.Value);
-                        Pombo pombo = new Pombo(txtNome.Text, Convert.ToDateTime(txtData.Text), idade,sexo);
+                        Pombo pombo = new Pombo(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
                         VG.arvore.Insere(pombo);
                         break;
 
