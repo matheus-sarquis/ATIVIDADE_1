@@ -49,23 +49,98 @@ namespace ATIVIDADE_1
             no_aux.SetNoDireita(Nodo.CriaNoExterno(no_aux));
             qtdeNodosInternos++;
         }
-        private void PercursoInterfixado(Nodo no)
+        private void PercursoInterfixadoNome(Nodo no)
         {
             if (no.EhExterno())
                 return;
-            PercursoInterfixado(no.GetNoEsquerda());
-            resultado = resultado + " - " + Convert.ToInt32(no.GetAnimal());
-            PercursoInterfixado(no.GetNoDireita());
+            PercursoInterfixadoNome(no.GetNoEsquerda());
+            resultado += " - " + no.GetAnimal().Nome + Environment.NewLine;
+            PercursoInterfixadoNome(no.GetNoDireita());
         }
         /// <summary>
-        /// Devolve um string com os elementos da árvore, em ordem crescente
+        /// Devolve um string com os elementos da árvore, em ordem alfabetica
         /// </summary>
         /// <returns></returns>
-        public string ListagemEmOrdem()
+        public string ListagemNomesEmOrdem()
         {
             resultado = "";
             if (qtdeNodosInternos != 0)
-                PercursoInterfixado(raiz);
+                PercursoInterfixadoNome(raiz);
+            return resultado;
+        }
+
+        private void PercursoInterfixadoClass(Nodo no, string classe)
+        {
+            if (no.EhExterno())
+                return;
+            PercursoInterfixadoClass(no.GetNoEsquerda(), classe);
+            if (no.GetAnimal().GetType().BaseType.Name == classe)
+                resultado += " - " + no.GetAnimal().Nome + Environment.NewLine;
+            PercursoInterfixadoClass(no.GetNoDireita(), classe);
+        }
+        /// <summary>
+        /// Devolve um string com os elementos da árvore, de acordo com uma classe herdada
+        /// </summary>
+        /// <returns></returns>
+        public string ListagemClassesEmOrdem(string classe)
+        {
+            resultado = "";
+            if (qtdeNodosInternos != 0)
+                PercursoInterfixadoClass(raiz, classe);
+            return resultado;
+        }
+
+        private void PercursoInterfixadoInterface(Nodo no, string inter)
+        {
+            if (no.EhExterno())
+                return;
+            PercursoInterfixadoInterface(no.GetNoEsquerda(), inter);
+            object[] interfaces = new object[4];
+            interfaces = no.GetAnimal().GetType().GetInterfaces();
+            foreach (object interfac in interfaces)
+            {
+                if (interfac.ToString().Contains(inter))
+                    resultado += " - " + no.GetAnimal().Nome + Environment.NewLine;
+            }
+            PercursoInterfixadoInterface(no.GetNoDireita(), inter);
+        }
+        /// <summary>
+        /// Devolve um string com os elementos da árvore, de acordo com as Interfaces
+        /// </summary>
+        /// <returns></returns>
+        public string ListagemInterfaceEmOrdem(string inter)
+        {
+            resultado = "";
+            if (qtdeNodosInternos != 0)
+                PercursoInterfixadoInterface(raiz, inter);
+            return resultado;
+        }
+
+        private void PercursoInterfixadoIdade(Nodo no, Animal[] animals, int num)
+        {
+            if (no.EhExterno())
+                return;
+
+            PercursoInterfixadoIdade(no.GetNoEsquerda(), animals, num);
+            //resultado += " - " + no.GetAnimal().Nome + Environment.NewLine;            
+            animals[num++] = no.GetAnimal();
+            PercursoInterfixadoIdade(no.GetNoDireita(), animals, num);
+        }
+        /// <summary>
+        /// Devolve um string com os elementos da árvore, em ordem alfabetica
+        /// </summary>
+        /// <returns></returns>
+        public string ListagemIdadeEmOrdem()
+        {
+            resultado = "";
+            int numero = 0;
+            Animal[] animals = new Animal[qtdeNodosInternos];
+            if (qtdeNodosInternos != 0)
+                PercursoInterfixadoIdade(raiz, animals, numero);
+            animals = animals.OrderBy(o => o.Idade()).ToArray();
+            foreach (var animal in animals)
+                resultado += animal.Nome + Environment.NewLine;
+
             return resultado;
         }
         /// <summary>

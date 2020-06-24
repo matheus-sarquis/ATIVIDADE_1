@@ -16,12 +16,11 @@ namespace ATIVIDADE_1
         public double VelocidadeVoo { get => velocidadeVoo; set => velocidadeVoo = value; }
         #endregion
 
-        public Coruja(string nome, DateTime nasc, int idade, char sexo)
+        public Coruja(string nome, DateTime nasc, char sexo)
         {
             Nome = nome;
             DataNasc = nasc;
             Sexo = sexo;
-            Idade = idade;
 
             Rapina = true;
             CorPena = "Marrom" ; //conferir com a imagem q será utilizada <--------------

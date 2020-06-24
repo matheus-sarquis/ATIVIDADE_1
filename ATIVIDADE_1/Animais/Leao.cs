@@ -8,11 +8,10 @@ namespace ATIVIDADE_1
 {
     class Leao : Mamifero, IPredador
     {
-        public Leao(string nome, DateTime nasc, int idade, char sexo)
+        public Leao(string nome, DateTime nasc, char sexo)
         {
             Nome = nome;
             DataNasc = nasc;
-            Idade = idade;
             Sexo = sexo;
 
             QtdMamas = 6;

@@ -45,7 +45,7 @@ namespace ATIVIDADE_1
                         else
                             sexo = 'f';
                         idade = Convert.ToInt32(nupIdade.Value);
-                        Baleia baleia = new Baleia(txtNome.Text, Convert.ToDateTime(txtData.Text), sexo, idade);
+                        Baleia baleia = new Baleia(txtNome.Text, Convert.ToDateTime(txtData.Text), sexo);
                         VG.arvore.Insere(baleia);
                         break;
 
@@ -55,7 +55,7 @@ namespace ATIVIDADE_1
                         else
                             sexo = 'f';
                         idade = Convert.ToInt32(nupIdade.Value);
-                        Cachorro cachorro = new Cachorro(txtNome.Text, Convert.ToDateTime(txtData.Text), sexo, idade);
+                        Cachorro cachorro = new Cachorro(txtNome.Text, Convert.ToDateTime(txtData.Text), sexo);
                         VG.arvore.Insere(cachorro);
                         break;
 
@@ -65,7 +65,7 @@ namespace ATIVIDADE_1
                         else
                             sexo = 'f';
                         idade = Convert.ToInt32(nupIdade.Value);
-                        Coruja coruja = new Coruja(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
+                        Coruja coruja = new Coruja(txtNome.Text, Convert.ToDateTime(txtData.Text), sexo);
                         VG.arvore.Insere(coruja);
                         break;
 
@@ -75,7 +75,7 @@ namespace ATIVIDADE_1
                         else
                             sexo = 'f';
                         idade = Convert.ToInt32(nupIdade.Value);
-                        Gato gato = new Gato(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
+                        Gato gato = new Gato(txtNome.Text, Convert.ToDateTime(txtData.Text), sexo);
                         VG.arvore.Insere(gato);
                         break;
 
@@ -85,7 +85,7 @@ namespace ATIVIDADE_1
                         else
                             sexo = 'f';
                         idade = Convert.ToInt32(nupIdade.Value);
-                        Gaviao gaviao = new Gaviao(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
+                        Gaviao gaviao = new Gaviao(txtNome.Text, Convert.ToDateTime(txtData.Text), sexo);
                         VG.arvore.Insere(gaviao);
                         break;
 
@@ -95,7 +95,7 @@ namespace ATIVIDADE_1
                         else
                             sexo = 'f';
                         idade = Convert.ToInt32(nupIdade.Value);
-                        Leao leao = new Leao(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
+                        Leao leao = new Leao(txtNome.Text, Convert.ToDateTime(txtData.Text), sexo);
                         VG.arvore.Insere(leao);
                         break;
 
@@ -105,7 +105,7 @@ namespace ATIVIDADE_1
                         else
                             sexo = 'f';
                         idade = Convert.ToInt32(nupIdade.Value);
-                        Morcego morcego = new Morcego(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
+                        Morcego morcego = new Morcego(txtNome.Text, Convert.ToDateTime(txtData.Text), sexo);
                         VG.arvore.Insere(morcego);
                         break;
 
@@ -115,7 +115,7 @@ namespace ATIVIDADE_1
                         else
                             sexo = 'f';
                         idade = Convert.ToInt32(nupIdade.Value);
-                        Ornitorrinco ornito = new Ornitorrinco(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo );
+                        Ornitorrinco ornito = new Ornitorrinco(txtNome.Text, Convert.ToDateTime(txtData.Text), sexo );
                         VG.arvore.Insere(ornito);
                         break;
 
@@ -125,7 +125,7 @@ namespace ATIVIDADE_1
                         else
                             sexo = 'f';
                         idade = Convert.ToInt32(nupIdade.Value);
-                        Pato pato = new Pato(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
+                        Pato pato = new Pato(txtNome.Text, Convert.ToDateTime(txtData.Text), sexo);
                         VG.arvore.Insere(pato);
                         break;
 
@@ -135,7 +135,7 @@ namespace ATIVIDADE_1
                         else
                             sexo = 'f';
                         idade = Convert.ToInt32(nupIdade.Value);
-                        Pinguim pinguim = new Pinguim(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
+                        Pinguim pinguim = new Pinguim(txtNome.Text, Convert.ToDateTime(txtData.Text), sexo);
                         VG.arvore.Insere(pinguim);
                         break;
 
@@ -145,7 +145,7 @@ namespace ATIVIDADE_1
                         else
                             sexo = 'f';
                         idade = Convert.ToInt32(nupIdade.Value);
-                        Pombo pombo = new Pombo(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
+                        Pombo pombo = new Pombo(txtNome.Text, Convert.ToDateTime(txtData.Text), sexo);
                         VG.arvore.Insere(pombo);
                         break;
 
@@ -155,7 +155,7 @@ namespace ATIVIDADE_1
                         else
                             sexo = 'f';
                         idade = Convert.ToInt32(nupIdade.Value);
-                        Tartaruga tartaruga = new Tartaruga(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
+                        Tartaruga tartaruga = new Tartaruga(txtNome.Text, Convert.ToDateTime(txtData.Text), sexo);
                         VG.arvore.Insere(tartaruga);
                         break;
 
@@ -165,7 +165,7 @@ namespace ATIVIDADE_1
                         else
                             sexo = 'f';
                         idade = Convert.ToInt32(nupIdade.Value);
-                        Tubarao tubarao = new Tubarao(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
+                        Tubarao tubarao = new Tubarao(txtNome.Text, Convert.ToDateTime(txtData.Text), sexo);
                         VG.arvore.Insere(tubarao);
                         break;
 
@@ -175,7 +175,7 @@ namespace ATIVIDADE_1
                         else
                             sexo = 'f';
                         idade = Convert.ToInt32(nupIdade.Value);
-                        Esquilo esquilo = new Esquilo(txtNome.Text, Convert.ToDateTime(txtData.Text), idade, sexo);
+                        Esquilo esquilo = new Esquilo(txtNome.Text, Convert.ToDateTime(txtData.Text), sexo);
                         VG.arvore.Insere(esquilo);
                         break;
 

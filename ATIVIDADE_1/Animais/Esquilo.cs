@@ -8,11 +8,10 @@ namespace ATIVIDADE_1
 {
     class Esquilo : Mamifero
     {
-        public Esquilo(string nome, DateTime nasc, int idade, char sexo)
+        public Esquilo(string nome, DateTime nasc, char sexo)
         {
             Nome = nome;
             DataNasc = nasc;
-            Idade = idade;
             Sexo = sexo;
 
             QtdMamas = 8;

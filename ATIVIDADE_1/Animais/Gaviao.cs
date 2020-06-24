@@ -16,11 +16,10 @@ namespace ATIVIDADE_1
         public double VelocidadeVoo { get => velocidadeVoo; set => velocidadeVoo = value; }
         #endregion
 
-        public Gaviao(string nome, DateTime nasc, int idade, char sexo)
+        public Gaviao(string nome, DateTime nasc, char sexo)
         {
             Nome = nome;
             DataNasc = nasc;
-            Idade = idade;
             Sexo = sexo;
 
             Rapina = true;

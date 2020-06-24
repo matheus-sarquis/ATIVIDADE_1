@@ -18,11 +18,10 @@ namespace ATIVIDADE_1
         public bool AguaDoce { get => aguaDoce; set => aguaDoce = value; }
         #endregion
 
-        public Pinguim(string nome, DateTime nasc, int idade, char sexo)
+        public Pinguim(string nome, DateTime nasc, char sexo)
         {
             Nome = nome;
             DataNasc = nasc;
-            Idade = idade;
             Sexo = sexo;
 
             Rapina = false;

@@ -10,11 +10,10 @@ namespace ATIVIDADE_1
     {
         public void Atacar() { }
 
-        public Gato(string nome, DateTime nasc, int idade, char sexo)
+        public Gato(string nome, DateTime nasc, char sexo)
         {
             Nome = nome;
             DataNasc = nasc;
-            Idade = idade;
             Sexo = sexo;
 
             QtdMamas = 8;

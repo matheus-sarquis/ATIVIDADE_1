@@ -59,6 +59,7 @@
             this.btnMamiferos.TabIndex = 2;
             this.btnMamiferos.Text = "Apenas Mamíferos";
             this.btnMamiferos.UseVisualStyleBackColor = true;
+            this.btnMamiferos.Click += new System.EventHandler(this.btnMamiferos_Click);
             // 
             // btnListAll
             // 
@@ -80,6 +81,7 @@
             this.btnOvip.TabIndex = 4;
             this.btnOvip.Text = "Apenas Ovíparos";
             this.btnOvip.UseVisualStyleBackColor = true;
+            this.btnOvip.Click += new System.EventHandler(this.btnOvip_Click);
             // 
             // btnAqua
             // 
@@ -90,6 +92,7 @@
             this.btnAqua.TabIndex = 5;
             this.btnAqua.Text = "Apenas Aquáticos";
             this.btnAqua.UseVisualStyleBackColor = true;
+            this.btnAqua.Click += new System.EventHandler(this.btnAqua_Click);
             // 
             // btnVoa
             // 
@@ -100,6 +103,7 @@
             this.btnVoa.TabIndex = 6;
             this.btnVoa.Text = "Apenas Voadores";
             this.btnVoa.UseVisualStyleBackColor = true;
+            this.btnVoa.Click += new System.EventHandler(this.btnVoa_Click);
             // 
             // btnIdade
             // 
@@ -110,6 +114,7 @@
             this.btnIdade.TabIndex = 7;
             this.btnIdade.Text = "Por Ordem de Idade";
             this.btnIdade.UseVisualStyleBackColor = true;
+            this.btnIdade.Click += new System.EventHandler(this.btnIdade_Click);
             // 
             // btnAlfa
             // 
@@ -120,6 +125,7 @@
             this.btnAlfa.TabIndex = 8;
             this.btnAlfa.Text = "Por Ordem Alfabética";
             this.btnAlfa.UseVisualStyleBackColor = true;
+            this.btnAlfa.Click += new System.EventHandler(this.btnAlfa_Click);
             // 
             // btnPred
             // 
@@ -130,6 +136,7 @@
             this.btnPred.TabIndex = 9;
             this.btnPred.Text = "Apenas Predadores";
             this.btnPred.UseVisualStyleBackColor = true;
+            this.btnPred.Click += new System.EventHandler(this.btnPred_Click);
             // 
             // txtGrande
             // 

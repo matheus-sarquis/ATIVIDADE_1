@@ -22,11 +22,10 @@ namespace ATIVIDADE_1
         public bool ViveEmT { get => viveEmT; set => viveEmT = value; }
         #endregion
 
-        public Pato(string nome, DateTime nasc, int idade, char sexo)
+        public Pato(string nome, DateTime nasc, char sexo)
         {
             Nome = nome;
             DataNasc = nasc;
-            Idade = idade;
             Sexo = sexo;
 
             Rapina = false;

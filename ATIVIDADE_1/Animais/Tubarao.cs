@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ATIVIDADE_1
 {
-    class Tubarao : Animal, IOviparo, IAquatico
+    class Tubarao : Animal, IOviparo, IAquatico, IPredador
     {
         #region Variáveis
         private bool viveEmT;
@@ -18,14 +18,14 @@ namespace ATIVIDADE_1
         public bool AguaDoce { get => aguaDoce; set => aguaDoce = value; }
         #endregion
 
+        public void Atacar() { }
         public void Botar() { }
         public void Chocar() { }
 
-        public Tubarao(string nome, DateTime nasc, int idade, char sexo)
+        public Tubarao(string nome, DateTime nasc, char sexo)
         {
             Nome = nome;
             DataNasc = nasc;
-            Idade = idade;
             Sexo = sexo;
 
             ViveEmT = false;

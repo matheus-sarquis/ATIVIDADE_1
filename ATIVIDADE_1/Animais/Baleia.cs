@@ -18,12 +18,11 @@ namespace ATIVIDADE_1
         public bool AguaDoce { get => aguaDoce; set => aguaDoce = value; }
         #endregion
 
-        public Baleia(string nome, DateTime nasc, char sexo, int idade)
+        public Baleia(string nome, DateTime nasc, char sexo)
         {
             Nome = nome;
             DataNasc = nasc;
             Sexo = sexo;
-            Idade = idade;
 
             Carnivoro = true;
             Peconhento = false;

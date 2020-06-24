@@ -10,12 +10,11 @@ namespace ATIVIDADE_1
     {
         public void Atacar() { }
 
-        public Cachorro(string nome, DateTime nasc, char sexo, int idade)
+        public Cachorro(string nome, DateTime nasc, char sexo)
         {
             Nome = nome;
             DataNasc = nasc;
             Sexo = sexo;
-            Idade = idade;
 
             QtdMamas = 8;
             CorPelo = "Marrom"; //mudar de acordo com a Imagem <---------------------
