@@ -31,6 +31,7 @@ namespace ATIVIDADE_1
 
         private void btnAmbiente1_Click(object sender, EventArgs e)
         {
+            pbAmbiente1.Image = Image.FromFile("FundoNeve.jpeg");
             //pbAmbiente1.Visible = true;
             //pbAmbiente2.Visible = false;
             //pbAmbiente3.Visible = false;

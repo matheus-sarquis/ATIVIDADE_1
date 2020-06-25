@@ -61,7 +61,6 @@
             // 
             // pbAmbiente1
             // 
-            this.pbAmbiente1.Image = global::ATIVIDADE_1.Properties.Resources.WhatsApp_Image_2020_06_23_at_17_21_29;
             this.pbAmbiente1.Location = new System.Drawing.Point(216, 74);
             this.pbAmbiente1.Name = "pbAmbiente1";
             this.pbAmbiente1.Size = new System.Drawing.Size(1021, 597);
