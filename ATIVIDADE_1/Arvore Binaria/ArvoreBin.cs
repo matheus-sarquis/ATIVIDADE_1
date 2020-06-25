@@ -10,6 +10,7 @@ namespace ATIVIDADE_1
     {
         private Nodo raiz = null; // raiz da árvore
         private int qtdeNodosInternos = 0; // qtde de nos internos
+        private int numeroIdade = 0;
         private string resultado = ""; // utilizada na listagem dos nodos 
         /// <summary>
         /// Returna a qtde de nós internos
@@ -116,15 +117,14 @@ namespace ATIVIDADE_1
             return resultado;
         }
 
-        private void PercursoInterfixadoIdade(Nodo no, Animal[] animals, int num)
+        private void PercursoInterfixadoIdade(Nodo no, Animal[] animals)
         {
             if (no.EhExterno())
                 return;
 
-            PercursoInterfixadoIdade(no.GetNoEsquerda(), animals, num);
-            //resultado += " - " + no.GetAnimal().Nome + Environment.NewLine;            
-            animals[num++] = no.GetAnimal();
-            PercursoInterfixadoIdade(no.GetNoDireita(), animals, num);
+            PercursoInterfixadoIdade(no.GetNoEsquerda(), animals);          
+            animals[numeroIdade++] = no.GetAnimal();
+            PercursoInterfixadoIdade(no.GetNoDireita(), animals);
         }
         /// <summary>
         /// Devolve um string com os elementos da árvore, em ordem alfabetica
@@ -132,17 +132,42 @@ namespace ATIVIDADE_1
         /// <returns></returns>
         public string ListagemIdadeEmOrdem()
         {
-            resultado = "";
-            int numero = 0;
+            numeroIdade = 0;
+            resultado = "";            
             Animal[] animals = new Animal[qtdeNodosInternos];
             if (qtdeNodosInternos != 0)
-                PercursoInterfixadoIdade(raiz, animals, numero);
-            animals = animals.OrderBy(o => o.Idade()).ToArray();
-            foreach (var animal in animals)
-                resultado += animal.Nome + Environment.NewLine;
+                PercursoInterfixadoIdade(raiz, animals);
+            //animals = animals.OrderBy(o => o.Idade()).ToArray();
 
-            return resultado;
+            return ColocaremOrdemNum(animals);
         }
+
+        public string ColocaremOrdemNum(Animal[] animals)
+        {
+            int i;
+            Animal[] a = new Animal[qtdeNodosInternos];
+            a = animals;
+            //Sorting the values  
+            for (i = 0; i <= qtdeNodosInternos; i++)
+            {
+                for (int j = 0; j <= qtdeNodosInternos - 2; j++)
+                {
+                    if (a[j].Idade() > a[j + 1].Idade())
+                    {
+                        Animal temp = a[j];
+                        a[j] = a[j + 1];
+                        a[j + 1] = temp;
+                    }
+                }
+            }
+            string conteudo = "";
+            for (i = 1; i <= qtdeNodosInternos - 1; i++)
+            {
+                conteudo += $" - {a[i].Nome}" + Environment.NewLine;
+            }
+            return conteudo;
+        }
+
         /// <summary>
         /// Pesquisa um nodo na árvore e devolve o nodo. Caso não encontre, devolve o nodo
         /// externo onde a pesquisa parou.
