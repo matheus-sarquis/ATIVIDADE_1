@@ -127,5 +127,21 @@
   <ItemGroup>
     <None Include="Resources\WhatsApp Image 2020-06-23 at 17.21.29.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagens\Baleia.png" />
+    <Content Include="Imagens\Cachorro.png" />
+    <Content Include="Imagens\Coruja.png" />
+    <Content Include="Imagens\Esquilo.png" />
+    <Content Include="Imagens\Gato.png" />
+    <Content Include="Imagens\Gavião.png" />
+    <Content Include="Imagens\Leão.png" />
+    <Content Include="Imagens\Morcego.png" />
+    <Content Include="Imagens\Ornitorrinco.png" />
+    <Content Include="Imagens\Pato.png" />
+    <Content Include="Imagens\Pinguim.png" />
+    <Content Include="Imagens\Pombo.png" />
+    <Content Include="Imagens\Tartaruga.png" />
+    <Content Include="Imagens\Tubarão.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
