@@ -31,7 +31,7 @@ namespace ATIVIDADE_1
 
         private void btnAmbiente1_Click(object sender, EventArgs e)
         {
-            pbAmbiente1.Visible = true;
+            //pbAmbiente1.Visible = true;
             //pbAmbiente2.Visible = false;
             //pbAmbiente3.Visible = false;
         }

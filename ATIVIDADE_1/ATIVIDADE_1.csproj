@@ -128,6 +128,9 @@
     <None Include="Resources\WhatsApp Image 2020-06-23 at 17.21.29.jpeg" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Fundos\FundoFazenda.jpeg" />
+    <Content Include="Fundos\FundoFloresta.jpeg" />
+    <Content Include="Fundos\FundoGelo.jpeg" />
     <Content Include="Imagens\Baleia.png" />
     <Content Include="Imagens\Cachorro.png" />
     <Content Include="Imagens\Coruja.png" />
@@ -143,5 +146,6 @@
     <Content Include="Imagens\Tartaruga.png" />
     <Content Include="Imagens\Tubarão.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

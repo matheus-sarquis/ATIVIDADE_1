@@ -33,14 +33,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.txtData = new System.Windows.Forms.MaskedTextBox();
             this.cbSexo = new System.Windows.Forms.ComboBox();
-            this.nupIdade = new System.Windows.Forms.NumericUpDown();
             this.gpPadrao = new System.Windows.Forms.GroupBox();
             this.btnAdcionar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.nupIdade)).BeginInit();
             this.gpPadrao.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -107,16 +104,6 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "Sexo:";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(6, 95);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 23);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Idade:";
-            // 
             // txtNome
             // 
             this.txtNome.Location = new System.Drawing.Point(63, 19);
@@ -144,27 +131,17 @@
             this.cbSexo.Size = new System.Drawing.Size(348, 21);
             this.cbSexo.TabIndex = 10;
             // 
-            // nupIdade
-            // 
-            this.nupIdade.Location = new System.Drawing.Point(63, 98);
-            this.nupIdade.Name = "nupIdade";
-            this.nupIdade.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.nupIdade.Size = new System.Drawing.Size(340, 20);
-            this.nupIdade.TabIndex = 11;
-            // 
             // gpPadrao
             // 
             this.gpPadrao.Controls.Add(this.label2);
             this.gpPadrao.Controls.Add(this.label3);
-            this.gpPadrao.Controls.Add(this.nupIdade);
             this.gpPadrao.Controls.Add(this.label4);
             this.gpPadrao.Controls.Add(this.cbSexo);
-            this.gpPadrao.Controls.Add(this.label5);
             this.gpPadrao.Controls.Add(this.txtData);
             this.gpPadrao.Controls.Add(this.txtNome);
             this.gpPadrao.Location = new System.Drawing.Point(12, 69);
             this.gpPadrao.Name = "gpPadrao";
-            this.gpPadrao.Size = new System.Drawing.Size(409, 134);
+            this.gpPadrao.Size = new System.Drawing.Size(409, 104);
             this.gpPadrao.TabIndex = 14;
             this.gpPadrao.TabStop = false;
             this.gpPadrao.Text = "Padrão";
@@ -175,7 +152,7 @@
             this.btnAdcionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdcionar.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdcionar.ForeColor = System.Drawing.Color.White;
-            this.btnAdcionar.Location = new System.Drawing.Point(12, 209);
+            this.btnAdcionar.Location = new System.Drawing.Point(12, 179);
             this.btnAdcionar.Name = "btnAdcionar";
             this.btnAdcionar.Size = new System.Drawing.Size(409, 40);
             this.btnAdcionar.TabIndex = 17;
@@ -188,14 +165,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(436, 273);
+            this.ClientSize = new System.Drawing.Size(436, 231);
             this.Controls.Add(this.btnAdcionar);
             this.Controls.Add(this.gpPadrao);
             this.Controls.Add(this.cbAnimal);
             this.Controls.Add(this.label1);
             this.Name = "frAddAnimal";
             this.Text = "Adcionar Animal";
-            ((System.ComponentModel.ISupportInitialize)(this.nupIdade)).EndInit();
             this.gpPadrao.ResumeLayout(false);
             this.gpPadrao.PerformLayout();
             this.ResumeLayout(false);
@@ -210,11 +186,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.MaskedTextBox txtData;
         private System.Windows.Forms.ComboBox cbSexo;
-        private System.Windows.Forms.NumericUpDown nupIdade;
         private System.Windows.Forms.GroupBox gpPadrao;
         private System.Windows.Forms.Button btnAdcionar;
     }
