@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btnAddAnimal = new System.Windows.Forms.Button();
-            this.pbAmbiente1 = new System.Windows.Forms.PictureBox();
+            this.pbAmbiente = new System.Windows.Forms.PictureBox();
             this.btnAmbiente1 = new System.Windows.Forms.Button();
             this.btnAmbiente2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -42,7 +42,7 @@
             this.btnMovimentar = new System.Windows.Forms.Button();
             this.btnlistagem = new System.Windows.Forms.Button();
             this.btnAddAll = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pbAmbiente1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbAmbiente)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAddAnimal
@@ -59,14 +59,14 @@
             this.btnAddAnimal.UseVisualStyleBackColor = false;
             this.btnAddAnimal.Click += new System.EventHandler(this.btnAddAnimal_Click);
             // 
-            // pbAmbiente1
+            // pbAmbiente
             // 
-            this.pbAmbiente1.Location = new System.Drawing.Point(216, 74);
-            this.pbAmbiente1.Name = "pbAmbiente1";
-            this.pbAmbiente1.Size = new System.Drawing.Size(1021, 597);
-            this.pbAmbiente1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbAmbiente1.TabIndex = 1;
-            this.pbAmbiente1.TabStop = false;
+            this.pbAmbiente.Location = new System.Drawing.Point(216, 74);
+            this.pbAmbiente.Name = "pbAmbiente";
+            this.pbAmbiente.Size = new System.Drawing.Size(1021, 597);
+            this.pbAmbiente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbAmbiente.TabIndex = 1;
+            this.pbAmbiente.TabStop = false;
             // 
             // btnAmbiente1
             // 
@@ -240,11 +240,11 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAmbiente2);
             this.Controls.Add(this.btnAmbiente1);
-            this.Controls.Add(this.pbAmbiente1);
+            this.Controls.Add(this.pbAmbiente);
             this.Controls.Add(this.btnAddAnimal);
             this.Name = "frPrincipal";
             this.Text = "Menu";
-            ((System.ComponentModel.ISupportInitialize)(this.pbAmbiente1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbAmbiente)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -264,7 +264,7 @@
         private System.Windows.Forms.Button btnEsquerda;
         private System.Windows.Forms.Button btnMovimentar;
         private System.Windows.Forms.Button btnlistagem;
-        private System.Windows.Forms.PictureBox pbAmbiente1;
+        private System.Windows.Forms.PictureBox pbAmbiente;
         private System.Windows.Forms.Button btnAddAll;
     }
 }

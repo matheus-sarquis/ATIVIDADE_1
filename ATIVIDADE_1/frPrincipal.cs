@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ATIVIDADE_1.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -31,24 +32,17 @@ namespace ATIVIDADE_1
 
         private void btnAmbiente1_Click(object sender, EventArgs e)
         {
-            pbAmbiente1.Image = Image.FromFile("FundoNeve.jpeg");
-            //pbAmbiente1.Visible = true;
-            //pbAmbiente2.Visible = false;
-            //pbAmbiente3.Visible = false;
+            pbAmbiente.Image = Resources.FundoGelo;         
         }
 
         private void btnAmbiente2_Click(object sender, EventArgs e)
         {
-            pbAmbiente1.Visible = false;
-            //pbAmbiente2.Visible = true;
-            //pbAmbiente3.Visible = false;
+            pbAmbiente.Image = Resources.FundoFloresta;
         }
 
         private void btnAmbiente3_Click(object sender, EventArgs e)
         {
-            pbAmbiente1.Visible = false;
-            //pbAmbiente2.Visible = false;
-            //pbAmbiente3.Visible = true;
+            pbAmbiente.Image = Resources.FundoFazenda;
         }
 
         private void cbAnimal_Click(object sender, EventArgs e)

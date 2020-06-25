@@ -63,9 +63,29 @@ namespace ATIVIDADE_1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap WhatsApp_Image_2020_06_23_at_17_21_29 {
+        internal static System.Drawing.Bitmap FundoFazenda {
             get {
-                object obj = ResourceManager.GetObject("WhatsApp Image 2020-06-23 at 17.21.29", resourceCulture);
+                object obj = ResourceManager.GetObject("FundoFazenda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FundoFloresta {
+            get {
+                object obj = ResourceManager.GetObject("FundoFloresta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FundoGelo {
+            get {
+                object obj = ResourceManager.GetObject("FundoGelo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
