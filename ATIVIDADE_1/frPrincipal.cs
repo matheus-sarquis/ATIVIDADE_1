@@ -51,7 +51,8 @@ namespace ATIVIDADE_1
             {
                 cbAnimal.Items.Clear();
                 foreach (var item in VG.animais)
-                    cbAnimal.Items.Add(item.Nome);
+                    if(item != null)
+                        cbAnimal.Items.Add(item.Nome);
             }
         }
 

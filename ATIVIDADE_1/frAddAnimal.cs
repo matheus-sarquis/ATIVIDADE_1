@@ -176,7 +176,7 @@ namespace ATIVIDADE_1
                 {
                     MessageBox.Show(excep.Message + $" - ({txtNome.Text})");
                 }
-                ////VG.AttAnimais();
+                VG.AttAnimais();
                 LimpaCampos();
                 break;
             } while (1 == 1);
