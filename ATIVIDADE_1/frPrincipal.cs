@@ -54,9 +54,9 @@ namespace ATIVIDADE_1
             //    foreach (var item in VG.animais)
             //        cbAnimal.Items.Add(item.Nome);
             //}
+            cbAnimal.Items.Clear();
             foreach (var item in File.ReadAllLines("Animais.txt"))
             {
-                cbAnimal.Items.Clear();
                 cbAnimal.Items.Add(item);
             }
         }
