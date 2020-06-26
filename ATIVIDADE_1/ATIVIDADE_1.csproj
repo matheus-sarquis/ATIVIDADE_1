@@ -125,9 +125,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Fundos\FundoFazenda.jpeg" />
-    <Content Include="Fundos\FundoFloresta.jpeg" />
-    <Content Include="Fundos\FundoGelo.jpeg" />
     <Content Include="Imagens\Baleia.png" />
     <Content Include="Imagens\Cachorro.png" />
     <Content Include="Imagens\Coruja.png" />

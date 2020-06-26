@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ATIVIDADE_1
 {
-    class Animal
+    public class Animal
     {
         #region Variáveis
         private string nome;

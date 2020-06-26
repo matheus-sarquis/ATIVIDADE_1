@@ -11,6 +11,7 @@ namespace ATIVIDADE_1
         private Nodo raiz = null; // raiz da árvore
         private int qtdeNodosInternos = 0; // qtde de nos internos
         private int numeroIdade = 0;
+        private int numAuxVetor = 0;
         private string resultado = ""; // utilizada na listagem dos nodos 
         /// <summary>
         /// Returna a qtde de nós internos
@@ -122,7 +123,7 @@ namespace ATIVIDADE_1
             if (no.EhExterno())
                 return;
 
-            PercursoInterfixadoIdade(no.GetNoEsquerda(), animals);          
+            PercursoInterfixadoIdade(no.GetNoEsquerda(), animals);
             animals[numeroIdade++] = no.GetAnimal();
             PercursoInterfixadoIdade(no.GetNoDireita(), animals);
         }
@@ -133,12 +134,11 @@ namespace ATIVIDADE_1
         public string ListagemIdadeEmOrdem()
         {
             numeroIdade = 0;
-            resultado = "";            
+            resultado = "";
             Animal[] animals = new Animal[qtdeNodosInternos];
             if (qtdeNodosInternos != 0)
                 PercursoInterfixadoIdade(raiz, animals);
             //animals = animals.OrderBy(o => o.Idade()).ToArray();
-
             return ColocaremOrdemNum(animals);
         }
 
@@ -168,6 +168,21 @@ namespace ATIVIDADE_1
             return conteudo;
         }
 
+        public Animal[] PegaAnimais()
+        {
+            numAuxVetor = 0;
+            Animal[] vetor = new Animal[qtdeNodosInternos];
+            PercursoInterfixadoAnimal(raiz, ref vetor);
+            return vetor;
+        }
+        private void PercursoInterfixadoAnimal(Nodo no, ref Animal[] animals)
+        {
+            if (no.EhExterno())
+                return;
+            PercursoInterfixadoIdade(no.GetNoEsquerda(), animals);
+            animals[numAuxVetor++] = no.GetAnimal();
+            PercursoInterfixadoIdade(no.GetNoDireita(), animals);
+        }
         /// <summary>
         /// Pesquisa um nodo na árvore e devolve o nodo. Caso não encontre, devolve o nodo
         /// externo onde a pesquisa parou.

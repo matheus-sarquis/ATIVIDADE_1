@@ -9,5 +9,11 @@ namespace ATIVIDADE_1
     class VG
     {
         public static ArvoreBin arvore = new ArvoreBin();
+        public static Animal[] animais = new Animal[0];
+        public static void AttAnimais()
+        {            
+            animais = new Animal[arvore.QtdeNodosInternos()];
+            animais = arvore.PegaAnimais();
+        }
     }
 }
