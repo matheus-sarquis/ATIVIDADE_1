@@ -29,11 +29,8 @@
         private void InitializeComponent()
         {
             this.btnAddAnimal = new System.Windows.Forms.Button();
-            this.btnAmbiente1 = new System.Windows.Forms.Button();
-            this.btnAmbiente2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.cbAnimal = new System.Windows.Forms.ComboBox();
-            this.btnAmbiente3 = new System.Windows.Forms.Button();
             this.btnDireita = new System.Windows.Forms.Button();
             this.btnCima = new System.Windows.Forms.Button();
             this.btnBaixo = new System.Windows.Forms.Button();
@@ -41,6 +38,14 @@
             this.btnMovimentar = new System.Windows.Forms.Button();
             this.btnlistagem = new System.Windows.Forms.Button();
             this.pAmbiente = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnAddAnimal
@@ -56,34 +61,6 @@
             this.btnAddAnimal.Text = "Adcionar Animal";
             this.btnAddAnimal.UseVisualStyleBackColor = false;
             this.btnAddAnimal.Click += new System.EventHandler(this.btnAddAnimal_Click);
-            // 
-            // btnAmbiente1
-            // 
-            this.btnAmbiente1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btnAmbiente1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAmbiente1.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAmbiente1.ForeColor = System.Drawing.Color.White;
-            this.btnAmbiente1.Location = new System.Drawing.Point(391, 12);
-            this.btnAmbiente1.Name = "btnAmbiente1";
-            this.btnAmbiente1.Size = new System.Drawing.Size(278, 56);
-            this.btnAmbiente1.TabIndex = 2;
-            this.btnAmbiente1.Text = "Ambiente 1";
-            this.btnAmbiente1.UseVisualStyleBackColor = false;
-            this.btnAmbiente1.Click += new System.EventHandler(this.btnAmbiente1_Click);
-            // 
-            // btnAmbiente2
-            // 
-            this.btnAmbiente2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btnAmbiente2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAmbiente2.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAmbiente2.ForeColor = System.Drawing.Color.White;
-            this.btnAmbiente2.Location = new System.Drawing.Point(675, 12);
-            this.btnAmbiente2.Name = "btnAmbiente2";
-            this.btnAmbiente2.Size = new System.Drawing.Size(278, 56);
-            this.btnAmbiente2.TabIndex = 3;
-            this.btnAmbiente2.Text = "Ambiente 2";
-            this.btnAmbiente2.UseVisualStyleBackColor = false;
-            this.btnAmbiente2.Click += new System.EventHandler(this.btnAmbiente2_Click);
             // 
             // label1
             // 
@@ -104,27 +81,14 @@
             this.cbAnimal.TabIndex = 5;
             this.cbAnimal.Click += new System.EventHandler(this.cbAnimal_Click);
             // 
-            // btnAmbiente3
-            // 
-            this.btnAmbiente3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btnAmbiente3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAmbiente3.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAmbiente3.ForeColor = System.Drawing.Color.White;
-            this.btnAmbiente3.Location = new System.Drawing.Point(959, 12);
-            this.btnAmbiente3.Name = "btnAmbiente3";
-            this.btnAmbiente3.Size = new System.Drawing.Size(278, 56);
-            this.btnAmbiente3.TabIndex = 6;
-            this.btnAmbiente3.Text = "Ambiente 3";
-            this.btnAmbiente3.UseVisualStyleBackColor = false;
-            this.btnAmbiente3.Click += new System.EventHandler(this.btnAmbiente3_Click);
-            // 
             // btnDireita
             // 
             this.btnDireita.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.btnDireita.Enabled = false;
             this.btnDireita.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDireita.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDireita.ForeColor = System.Drawing.Color.White;
-            this.btnDireita.Location = new System.Drawing.Point(142, 642);
+            this.btnDireita.Location = new System.Drawing.Point(142, 614);
             this.btnDireita.Name = "btnDireita";
             this.btnDireita.Size = new System.Drawing.Size(56, 56);
             this.btnDireita.TabIndex = 7;
@@ -134,10 +98,11 @@
             // btnCima
             // 
             this.btnCima.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.btnCima.Enabled = false;
             this.btnCima.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCima.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCima.ForeColor = System.Drawing.Color.White;
-            this.btnCima.Location = new System.Drawing.Point(79, 580);
+            this.btnCima.Location = new System.Drawing.Point(79, 552);
             this.btnCima.Name = "btnCima";
             this.btnCima.Size = new System.Drawing.Size(56, 56);
             this.btnCima.TabIndex = 8;
@@ -147,10 +112,11 @@
             // btnBaixo
             // 
             this.btnBaixo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.btnBaixo.Enabled = false;
             this.btnBaixo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBaixo.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBaixo.ForeColor = System.Drawing.Color.White;
-            this.btnBaixo.Location = new System.Drawing.Point(79, 642);
+            this.btnBaixo.Location = new System.Drawing.Point(79, 614);
             this.btnBaixo.Name = "btnBaixo";
             this.btnBaixo.Size = new System.Drawing.Size(56, 56);
             this.btnBaixo.TabIndex = 9;
@@ -160,10 +126,11 @@
             // btnEsquerda
             // 
             this.btnEsquerda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.btnEsquerda.Enabled = false;
             this.btnEsquerda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEsquerda.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEsquerda.ForeColor = System.Drawing.Color.White;
-            this.btnEsquerda.Location = new System.Drawing.Point(16, 642);
+            this.btnEsquerda.Location = new System.Drawing.Point(16, 614);
             this.btnEsquerda.Name = "btnEsquerda";
             this.btnEsquerda.Size = new System.Drawing.Size(56, 56);
             this.btnEsquerda.TabIndex = 10;
@@ -176,12 +143,13 @@
             this.btnMovimentar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMovimentar.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMovimentar.ForeColor = System.Drawing.Color.White;
-            this.btnMovimentar.Location = new System.Drawing.Point(12, 518);
+            this.btnMovimentar.Location = new System.Drawing.Point(12, 502);
             this.btnMovimentar.Name = "btnMovimentar";
-            this.btnMovimentar.Size = new System.Drawing.Size(198, 56);
+            this.btnMovimentar.Size = new System.Drawing.Size(198, 44);
             this.btnMovimentar.TabIndex = 11;
             this.btnMovimentar.Text = "Movimentar";
             this.btnMovimentar.UseVisualStyleBackColor = false;
+            this.btnMovimentar.Click += new System.EventHandler(this.btnMovimentar_Click);
             // 
             // btnlistagem
             // 
@@ -200,17 +168,126 @@
             // pAmbiente
             // 
             this.pAmbiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pAmbiente.Location = new System.Drawing.Point(216, 102);
+            this.pAmbiente.Location = new System.Drawing.Point(217, 74);
             this.pAmbiente.Name = "pAmbiente";
             this.pAmbiente.Size = new System.Drawing.Size(1020, 595);
             this.pAmbiente.TabIndex = 14;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(12, 152);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(198, 44);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "Botar";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(12, 202);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(198, 44);
+            this.button2.TabIndex = 16;
+            this.button2.Text = "Chocar";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(12, 252);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(198, 44);
+            this.button3.TabIndex = 17;
+            this.button3.Text = "Voar";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(12, 302);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(198, 44);
+            this.button4.TabIndex = 18;
+            this.button4.Text = "Amamentar";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(12, 352);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(198, 44);
+            this.button5.TabIndex = 19;
+            this.button5.Text = "Atacar";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(12, 402);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(198, 44);
+            this.button6.TabIndex = 20;
+            this.button6.Text = "Alimentar";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Location = new System.Drawing.Point(12, 452);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(198, 44);
+            this.button7.TabIndex = 21;
+            this.button7.Text = "Ciscar";
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe Print", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(77, 123);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(58, 26);
+            this.label2.TabIndex = 22;
+            this.label2.Text = "Ações:";
             // 
             // frPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(1249, 704);
+            this.ClientSize = new System.Drawing.Size(1249, 682);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.pAmbiente);
             this.Controls.Add(this.btnlistagem);
             this.Controls.Add(this.btnMovimentar);
@@ -218,11 +295,8 @@
             this.Controls.Add(this.btnBaixo);
             this.Controls.Add(this.btnCima);
             this.Controls.Add(this.btnDireita);
-            this.Controls.Add(this.btnAmbiente3);
             this.Controls.Add(this.cbAnimal);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnAmbiente2);
-            this.Controls.Add(this.btnAmbiente1);
             this.Controls.Add(this.btnAddAnimal);
             this.Name = "frPrincipal";
             this.Text = "Menu";
@@ -234,11 +308,8 @@
         #endregion
 
         private System.Windows.Forms.Button btnAddAnimal;
-        private System.Windows.Forms.Button btnAmbiente1;
-        private System.Windows.Forms.Button btnAmbiente2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cbAnimal;
-        private System.Windows.Forms.Button btnAmbiente3;
         private System.Windows.Forms.Button btnDireita;
         private System.Windows.Forms.Button btnCima;
         private System.Windows.Forms.Button btnBaixo;
@@ -246,6 +317,14 @@
         private System.Windows.Forms.Button btnMovimentar;
         private System.Windows.Forms.Button btnlistagem;
         private System.Windows.Forms.Panel pAmbiente;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label label2;
     }
 }
 

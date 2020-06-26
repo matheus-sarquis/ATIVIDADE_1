@@ -54,5 +54,25 @@ namespace ATIVIDADE_1
                 cbAnimal.Items.Add(item);
             }
         }
+
+        private void btnMovimentar_Click(object sender, EventArgs e)
+        {
+            if(btnMovimentar.Text == "Movimentar")
+            {
+                btnBaixo.Enabled = true;
+                btnCima.Enabled = true;
+                btnDireita.Enabled = true;
+                btnEsquerda.Enabled = true;
+                btnMovimentar.Text = "Parar";
+            }
+            else
+            {
+                btnBaixo.Enabled = false;
+                btnCima.Enabled = false;
+                btnDireita.Enabled = false;
+                btnEsquerda.Enabled = false;
+                btnMovimentar.Text = "Movimentar";
+            }
+        }
     }
 }
