@@ -38,6 +38,7 @@
             this.cbSexo = new System.Windows.Forms.ComboBox();
             this.gpPadrao = new System.Windows.Forms.GroupBox();
             this.btnAdcionar = new System.Windows.Forms.Button();
+            this.btnAdcionarTodos = new System.Windows.Forms.Button();
             this.gpPadrao.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -160,12 +161,27 @@
             this.btnAdcionar.UseVisualStyleBackColor = false;
             this.btnAdcionar.Click += new System.EventHandler(this.btnAdcionar_Click);
             // 
+            // btnAdcionarTodos
+            // 
+            this.btnAdcionarTodos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.btnAdcionarTodos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdcionarTodos.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdcionarTodos.ForeColor = System.Drawing.Color.White;
+            this.btnAdcionarTodos.Location = new System.Drawing.Point(12, 238);
+            this.btnAdcionarTodos.Name = "btnAdcionarTodos";
+            this.btnAdcionarTodos.Size = new System.Drawing.Size(409, 40);
+            this.btnAdcionarTodos.TabIndex = 18;
+            this.btnAdcionarTodos.Text = "Adcionar um animal de cada espécie";
+            this.btnAdcionarTodos.UseVisualStyleBackColor = false;
+            this.btnAdcionarTodos.Click += new System.EventHandler(this.btnAdcionarTodos_Click);
+            // 
             // frAddAnimal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(436, 231);
+            this.ClientSize = new System.Drawing.Size(436, 291);
+            this.Controls.Add(this.btnAdcionarTodos);
             this.Controls.Add(this.btnAdcionar);
             this.Controls.Add(this.gpPadrao);
             this.Controls.Add(this.cbAnimal);
@@ -192,5 +208,6 @@
         private System.Windows.Forms.ComboBox cbSexo;
         private System.Windows.Forms.GroupBox gpPadrao;
         private System.Windows.Forms.Button btnAdcionar;
+        private System.Windows.Forms.Button btnAdcionarTodos;
     }
 }

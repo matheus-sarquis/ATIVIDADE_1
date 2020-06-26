@@ -187,5 +187,59 @@ namespace ATIVIDADE_1
         {
             File.WriteAllText("Animais.txt", VG.arvore.ListagemNomesEmOrdem());
         }
+
+        private void btnAdcionarTodos_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Baleia baleia = new Baleia("Baleia", DateTime.Now, 'F');
+                VG.arvore.Insere(baleia);
+
+                Cachorro cachorro = new Cachorro("Cachorro", DateTime.Now, 'F');
+                VG.arvore.Insere(cachorro);
+
+                Coruja coruja = new Coruja("Coruja", DateTime.Now, 'F');
+                VG.arvore.Insere(coruja);
+
+                Esquilo esquilo = new Esquilo("Esquilo", DateTime.Now, 'F');
+                VG.arvore.Insere(esquilo);
+
+                Gato gato = new Gato("Gato", DateTime.Now, 'F');
+                VG.arvore.Insere(gato);
+
+                Gaviao gaviao = new Gaviao("Gaviao", DateTime.Now, 'F');
+                VG.arvore.Insere(gaviao);
+
+                Leao leao = new Leao("Leao", DateTime.Now, 'F');
+                VG.arvore.Insere(leao);
+
+                Morcego morcego = new Morcego("Morcego", DateTime.Now, 'F');
+                VG.arvore.Insere(morcego);
+
+                Ornitorrinco ornitorrinco = new Ornitorrinco("Ornitorrinco", DateTime.Now, 'F');
+                VG.arvore.Insere(ornitorrinco);
+
+                Pato pato = new Pato("Pato", DateTime.Now, 'F');
+                VG.arvore.Insere(pato);
+
+                Pinguim pinguim = new Pinguim("Pinguim", DateTime.Now, 'F');
+                VG.arvore.Insere(pinguim);
+
+                Pombo pombo = new Pombo("Pombo", DateTime.Now, 'F');
+                VG.arvore.Insere(pombo);
+
+                Tartaruga tartaruga = new Tartaruga("Tartaruga", DateTime.Now, 'F');
+                VG.arvore.Insere(tartaruga);
+
+                Tubarao tubarao = new Tubarao("Tubarao", DateTime.Now, 'F');
+                VG.arvore.Insere(tubarao);
+
+                //VG.AttAnimais();
+            }
+            catch (Exception except)
+            {
+                MessageBox.Show(except.Message);
+            }
+        }
     }
 }
