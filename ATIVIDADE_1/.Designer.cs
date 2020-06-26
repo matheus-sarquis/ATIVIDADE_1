@@ -124,7 +124,7 @@
             this.btnDireita.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDireita.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDireita.ForeColor = System.Drawing.Color.White;
-            this.btnDireita.Location = new System.Drawing.Point(142, 614);
+            this.btnDireita.Location = new System.Drawing.Point(142, 642);
             this.btnDireita.Name = "btnDireita";
             this.btnDireita.Size = new System.Drawing.Size(56, 56);
             this.btnDireita.TabIndex = 7;
@@ -137,7 +137,7 @@
             this.btnCima.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCima.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCima.ForeColor = System.Drawing.Color.White;
-            this.btnCima.Location = new System.Drawing.Point(79, 552);
+            this.btnCima.Location = new System.Drawing.Point(79, 580);
             this.btnCima.Name = "btnCima";
             this.btnCima.Size = new System.Drawing.Size(56, 56);
             this.btnCima.TabIndex = 8;
@@ -150,7 +150,7 @@
             this.btnBaixo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBaixo.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBaixo.ForeColor = System.Drawing.Color.White;
-            this.btnBaixo.Location = new System.Drawing.Point(79, 614);
+            this.btnBaixo.Location = new System.Drawing.Point(79, 642);
             this.btnBaixo.Name = "btnBaixo";
             this.btnBaixo.Size = new System.Drawing.Size(56, 56);
             this.btnBaixo.TabIndex = 9;
@@ -163,7 +163,7 @@
             this.btnEsquerda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEsquerda.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEsquerda.ForeColor = System.Drawing.Color.White;
-            this.btnEsquerda.Location = new System.Drawing.Point(16, 614);
+            this.btnEsquerda.Location = new System.Drawing.Point(16, 642);
             this.btnEsquerda.Name = "btnEsquerda";
             this.btnEsquerda.Size = new System.Drawing.Size(56, 56);
             this.btnEsquerda.TabIndex = 10;
@@ -176,7 +176,7 @@
             this.btnMovimentar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMovimentar.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMovimentar.ForeColor = System.Drawing.Color.White;
-            this.btnMovimentar.Location = new System.Drawing.Point(12, 490);
+            this.btnMovimentar.Location = new System.Drawing.Point(12, 518);
             this.btnMovimentar.Name = "btnMovimentar";
             this.btnMovimentar.Size = new System.Drawing.Size(198, 56);
             this.btnMovimentar.TabIndex = 11;
@@ -200,7 +200,7 @@
             // pAmbiente
             // 
             this.pAmbiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pAmbiente.Location = new System.Drawing.Point(216, 74);
+            this.pAmbiente.Location = new System.Drawing.Point(216, 102);
             this.pAmbiente.Name = "pAmbiente";
             this.pAmbiente.Size = new System.Drawing.Size(1020, 595);
             this.pAmbiente.TabIndex = 14;
@@ -210,7 +210,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(1249, 683);
+            this.ClientSize = new System.Drawing.Size(1249, 704);
             this.Controls.Add(this.pAmbiente);
             this.Controls.Add(this.btnlistagem);
             this.Controls.Add(this.btnMovimentar);
