@@ -175,6 +175,7 @@ namespace ATIVIDADE_1
             PercursoInterfixadoAnimal(raiz, ref vetor);
             return vetor;
         }
+
         private void PercursoInterfixadoAnimal(Nodo no, ref Animal[] animals)
         {
             if (no.EhExterno())
