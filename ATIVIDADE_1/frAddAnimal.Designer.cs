@@ -172,6 +172,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frAddAnimal";
             this.Text = "Adcionar Animal";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frAddAnimal_FormClosing);
             this.gpPadrao.ResumeLayout(false);
             this.gpPadrao.PerformLayout();
             this.ResumeLayout(false);

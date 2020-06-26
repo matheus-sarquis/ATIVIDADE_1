@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.btnAddAnimal = new System.Windows.Forms.Button();
-            this.pbAmbiente = new System.Windows.Forms.PictureBox();
             this.btnAmbiente1 = new System.Windows.Forms.Button();
             this.btnAmbiente2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -42,7 +41,7 @@
             this.btnMovimentar = new System.Windows.Forms.Button();
             this.btnlistagem = new System.Windows.Forms.Button();
             this.btnAddAll = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pbAmbiente)).BeginInit();
+            this.pAmbiente = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // btnAddAnimal
@@ -58,15 +57,6 @@
             this.btnAddAnimal.Text = "Adcionar Animal";
             this.btnAddAnimal.UseVisualStyleBackColor = false;
             this.btnAddAnimal.Click += new System.EventHandler(this.btnAddAnimal_Click);
-            // 
-            // pbAmbiente
-            // 
-            this.pbAmbiente.Location = new System.Drawing.Point(216, 74);
-            this.pbAmbiente.Name = "pbAmbiente";
-            this.pbAmbiente.Size = new System.Drawing.Size(1021, 597);
-            this.pbAmbiente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbAmbiente.TabIndex = 1;
-            this.pbAmbiente.TabStop = false;
             // 
             // btnAmbiente1
             // 
@@ -222,12 +212,21 @@
             this.btnAddAll.UseVisualStyleBackColor = false;
             this.btnAddAll.Click += new System.EventHandler(this.btnAddAll_Click);
             // 
+            // pAmbiente
+            // 
+            this.pAmbiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pAmbiente.Location = new System.Drawing.Point(216, 74);
+            this.pAmbiente.Name = "pAmbiente";
+            this.pAmbiente.Size = new System.Drawing.Size(1020, 595);
+            this.pAmbiente.TabIndex = 14;
+            // 
             // frPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(1249, 683);
+            this.Controls.Add(this.pAmbiente);
             this.Controls.Add(this.btnAddAll);
             this.Controls.Add(this.btnlistagem);
             this.Controls.Add(this.btnMovimentar);
@@ -240,11 +239,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAmbiente2);
             this.Controls.Add(this.btnAmbiente1);
-            this.Controls.Add(this.pbAmbiente);
             this.Controls.Add(this.btnAddAnimal);
             this.Name = "frPrincipal";
             this.Text = "Menu";
-            ((System.ComponentModel.ISupportInitialize)(this.pbAmbiente)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -264,8 +261,8 @@
         private System.Windows.Forms.Button btnEsquerda;
         private System.Windows.Forms.Button btnMovimentar;
         private System.Windows.Forms.Button btnlistagem;
-        private System.Windows.Forms.PictureBox pbAmbiente;
         private System.Windows.Forms.Button btnAddAll;
+        private System.Windows.Forms.Panel pAmbiente;
     }
 }
 

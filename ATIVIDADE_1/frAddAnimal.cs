@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace ATIVIDADE_1
 {
@@ -180,6 +181,11 @@ namespace ATIVIDADE_1
                 LimpaCampos();
                 break;
             } while (1 == 1);
+        }
+
+        private void frAddAnimal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            File.WriteAllText("Animais.txt", VG.arvore.ListagemNomesEmOrdem());
         }
     }
 }

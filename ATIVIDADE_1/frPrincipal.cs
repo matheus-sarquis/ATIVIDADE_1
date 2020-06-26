@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace ATIVIDADE_1
 {
@@ -32,27 +33,31 @@ namespace ATIVIDADE_1
 
         private void btnAmbiente1_Click(object sender, EventArgs e)
         {
-            pbAmbiente.Image = Resources.FundoGelo;
+            pAmbiente.BackgroundImage = Resources.FundoGelo;
         }
 
         private void btnAmbiente2_Click(object sender, EventArgs e)
         {
-            pbAmbiente.Image = Resources.FundoFloresta;
+            pAmbiente.BackgroundImage = Resources.FundoFloresta;
         }
 
         private void btnAmbiente3_Click(object sender, EventArgs e)
         {
-            pbAmbiente.Image = Resources.FundoFazenda;
+            pAmbiente.BackgroundImage = Resources.FundoFazenda;
         }
 
         private void cbAnimal_Click(object sender, EventArgs e)
         {
-            if (VG.animais.Length > 0)
+            //if (VG.animais.Length > 0)
+            //{
+            //    cbAnimal.Items.Clear();
+            //    foreach (var item in VG.animais)
+            //        cbAnimal.Items.Add(item.Nome);
+            //}
+            foreach (var item in File.ReadAllLines("Animais.txt"))
             {
                 cbAnimal.Items.Clear();
-                foreach (var item in VG.animais)
-                    if(item != null)
-                        cbAnimal.Items.Add(item.Nome);
+                cbAnimal.Items.Add(item);
             }
         }
 
@@ -102,7 +107,7 @@ namespace ATIVIDADE_1
                 Tubarao tubarao = new Tubarao("Tubarao", DateTime.Now, 'F');
                 VG.arvore.Insere(tubarao);
 
-                VG.AttAnimais();
+                //VG.AttAnimais();
             }
             catch (Exception except)
             {
