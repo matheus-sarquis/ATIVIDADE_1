@@ -40,7 +40,6 @@
             this.btnEsquerda = new System.Windows.Forms.Button();
             this.btnMovimentar = new System.Windows.Forms.Button();
             this.btnlistagem = new System.Windows.Forms.Button();
-            this.btnAddAll = new System.Windows.Forms.Button();
             this.pAmbiente = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
@@ -198,20 +197,6 @@
             this.btnlistagem.UseVisualStyleBackColor = false;
             this.btnlistagem.Click += new System.EventHandler(this.btnlistagem_Click);
             // 
-            // btnAddAll
-            // 
-            this.btnAddAll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btnAddAll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddAll.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddAll.ForeColor = System.Drawing.Color.White;
-            this.btnAddAll.Location = new System.Drawing.Point(12, 127);
-            this.btnAddAll.Name = "btnAddAll";
-            this.btnAddAll.Size = new System.Drawing.Size(198, 56);
-            this.btnAddAll.TabIndex = 13;
-            this.btnAddAll.Text = "Adcionar Todos os Animais";
-            this.btnAddAll.UseVisualStyleBackColor = false;
-            this.btnAddAll.Click += new System.EventHandler(this.btnAddAll_Click);
-            // 
             // pAmbiente
             // 
             this.pAmbiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -227,7 +212,6 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(1249, 683);
             this.Controls.Add(this.pAmbiente);
-            this.Controls.Add(this.btnAddAll);
             this.Controls.Add(this.btnlistagem);
             this.Controls.Add(this.btnMovimentar);
             this.Controls.Add(this.btnEsquerda);
@@ -261,7 +245,6 @@
         private System.Windows.Forms.Button btnEsquerda;
         private System.Windows.Forms.Button btnMovimentar;
         private System.Windows.Forms.Button btnlistagem;
-        private System.Windows.Forms.Button btnAddAll;
         private System.Windows.Forms.Panel pAmbiente;
     }
 }
