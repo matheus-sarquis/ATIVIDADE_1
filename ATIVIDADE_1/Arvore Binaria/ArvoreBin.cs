@@ -120,6 +120,7 @@ namespace ATIVIDADE_1
 
         private void PercursoInterfixadoIdade(Nodo no, Animal[] animals)
         {
+
             if (no.EhExterno())
                 return;
 
@@ -180,9 +181,9 @@ namespace ATIVIDADE_1
         {
             if (no.EhExterno())
                 return;
-            PercursoInterfixadoIdade(no.GetNoEsquerda(), animals);
+            PercursoInterfixadoAnimal(no.GetNoEsquerda(),ref animals);
             animals[numAuxVetor++] = no.GetAnimal();
-            PercursoInterfixadoIdade(no.GetNoDireita(), animals);
+            PercursoInterfixadoAnimal(no.GetNoDireita(),ref animals);
         }
         /// <summary>
         /// Pesquisa um nodo na árvore e devolve o nodo. Caso não encontre, devolve o nodo
