@@ -48,15 +48,9 @@ namespace ATIVIDADE_1
 
         private void cbAnimal_Click(object sender, EventArgs e)
         {
-            //if (VG.animais.Length > 0)
-            //{
-            //    cbAnimal.Items.Clear();
-            //    foreach (var item in VG.animais)
-            //        cbAnimal.Items.Add(item.Nome);
-            //}
+            cbAnimal.Items.Clear();
             foreach (var item in File.ReadAllLines("Animais.txt"))
             {
-                cbAnimal.Items.Clear();
                 cbAnimal.Items.Add(item);
             }
         }
