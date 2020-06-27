@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.IO;
 
 namespace ATIVIDADE_1
 {
@@ -29,30 +28,11 @@ namespace ATIVIDADE_1
         {
             frListar tela = new frListar();
             tela.Show();
-        }
-
-        private void btnAmbiente1_Click(object sender, EventArgs e)
-        {
-            pAmbiente.BackgroundImage = Resources.FundoGelo;
-        }
-
-        private void btnAmbiente2_Click(object sender, EventArgs e)
-        {
-            pAmbiente.BackgroundImage = Resources.FundoFloresta;
-        }
-
-        private void btnAmbiente3_Click(object sender, EventArgs e)
-        {
-            pAmbiente.BackgroundImage = Resources.FundoFazenda;
-        }
+        }       
 
         private void cbAnimal_Click(object sender, EventArgs e)
         {
             cbAnimal.Items.Clear();
-            //foreach (var item in File.ReadAllLines("Animais.txt"))
-            //{
-            //    cbAnimal.Items.Add(item);
-            //}
             foreach (var item in VG.animais)
             {
                 cbAnimal.Items.Add(item.Nome);
@@ -137,7 +117,6 @@ namespace ATIVIDADE_1
                 }
             }
             lblInfo.Text = conteudo;
-
 
             if (cbAnimal.Text != "")
             {
