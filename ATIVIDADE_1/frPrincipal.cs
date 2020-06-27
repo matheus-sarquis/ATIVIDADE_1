@@ -41,13 +41,13 @@ namespace ATIVIDADE_1
 
         private void btnMovimentar_Click(object sender, EventArgs e)
         {
-            if (btnMovimentar.Text == "Movimentar")
+            if (btnMovimenta.Text == "Movimentar")
             {
                 btnBaixo.Enabled = true;
                 btnCima.Enabled = true;
                 btnDireita.Enabled = true;
                 btnEsquerda.Enabled = true;
-                btnMovimentar.Text = "Parar";
+                btnMovimenta.Text = "Parar";
             }
             else
             {
@@ -55,7 +55,7 @@ namespace ATIVIDADE_1
                 btnCima.Enabled = false;
                 btnDireita.Enabled = false;
                 btnEsquerda.Enabled = false;
-                btnMovimentar.Text = "Movimentar";
+                btnMovimenta.Text = "Movimentar";
             }
         }
 
@@ -130,6 +130,7 @@ namespace ATIVIDADE_1
                             pbAnimal.BackgroundImage = Resources.Baleia;
                             pbAnimal.Location = new Point(237, 278);
                             pbAnimal.Size = new Size(464, 346);
+                            MudaBtn("12");
                         }
 
                         if (item is Cachorro)
@@ -138,6 +139,7 @@ namespace ATIVIDADE_1
                             pbAnimal.BackgroundImage = Resources.Cachorro;
                             pbAnimal.Location = new Point(721, 199);
                             pbAnimal.Size = new Size(196, 173);
+                            MudaBtn("126");
                         }
 
                         if (item is Coruja)
@@ -146,6 +148,7 @@ namespace ATIVIDADE_1
                             pbAnimal.BackgroundImage = Resources.Coruja;
                             pbAnimal.Location = new Point(271, 149);
                             pbAnimal.Size = new Size(209, 185);
+                            MudaBtn("13546");
                         }
 
                         if (item is Esquilo)
@@ -154,6 +157,7 @@ namespace ATIVIDADE_1
                             pbAnimal.BackgroundImage = Resources.Esquilo;
                             pbAnimal.Location = new Point(499, 228);
                             pbAnimal.Size = new Size(152, 144);
+                            MudaBtn("12");
                         }
 
                         if (item is Gato)
@@ -162,6 +166,7 @@ namespace ATIVIDADE_1
                             pbAnimal.BackgroundImage = Resources.Gato;
                             pbAnimal.Location = new Point(721, 199);
                             pbAnimal.Size = new Size(196, 173);
+                            MudaBtn("126");
                         }
 
                         if (item is Gaviao)
@@ -170,6 +175,7 @@ namespace ATIVIDADE_1
                             pbAnimal.BackgroundImage = Resources.Gavião;
                             pbAnimal.Location = new Point(753, 104);
                             pbAnimal.Size = new Size(214, 186);
+                            MudaBtn("13456");
                         }
 
                         if (item is Leao)
@@ -178,6 +184,7 @@ namespace ATIVIDADE_1
                             pbAnimal.BackgroundImage = Resources.Leão;
                             pbAnimal.Location = new Point(433, 238);
                             pbAnimal.Size = new Size(338, 278);
+                            MudaBtn("126");
                         }
 
                         if (item is Morcego)
@@ -186,6 +193,7 @@ namespace ATIVIDADE_1
                             pbAnimal.BackgroundImage = Resources.Morcego;
                             pbAnimal.Location = new Point(271, 149);
                             pbAnimal.Size = new Size(209, 185);
+                            MudaBtn("1246");
                         }
 
                         if (item is Ornitorrinco)
@@ -194,6 +202,7 @@ namespace ATIVIDADE_1
                             pbAnimal.BackgroundImage = Resources.Ornitorrinco;
                             pbAnimal.Location = new Point(424, 328);
                             pbAnimal.Size = new Size(241, 197);
+                            MudaBtn("125");
                         }
 
                         if (item is Pato)
@@ -202,6 +211,7 @@ namespace ATIVIDADE_1
                             pbAnimal.BackgroundImage = Resources.Pato;
                             pbAnimal.Location = new Point(87, 254);
                             pbAnimal.Size = new Size(152, 139);
+                            MudaBtn("1354");
                         }
 
                         if (item is Pinguim)
@@ -210,6 +220,7 @@ namespace ATIVIDADE_1
                             pbAnimal.BackgroundImage = Resources.Pinguim;
                             pbAnimal.Location = new Point(741, 78);
                             pbAnimal.Size = new Size(219, 206);
+                            MudaBtn("135");
                         }
 
                         if (item is Pombo)
@@ -218,6 +229,7 @@ namespace ATIVIDADE_1
                             pbAnimal.BackgroundImage = Resources.Pombo;
                             pbAnimal.Location = new Point(271, 149);
                             pbAnimal.Size = new Size(152, 139);
+                            MudaBtn("135");
                         }
 
                         if (item is Tartaruga)
@@ -226,6 +238,7 @@ namespace ATIVIDADE_1
                             pbAnimal.BackgroundImage = Resources.Tartaruga;
                             pbAnimal.Location = new Point(107, 210);
                             pbAnimal.Size = new Size(241, 197);
+                            MudaBtn("15");
                         }
 
                         if (item is Tubarao)
@@ -234,28 +247,53 @@ namespace ATIVIDADE_1
                             pbAnimal.BackgroundImage = Resources.Tubarão;
                             pbAnimal.Location = new Point(261, 178);
                             pbAnimal.Size = new Size(464, 511);
+                            MudaBtn("16");
                         }
                     }
                 }
             }
-
+            else
+                MudaBtn("");
         }
 
-        public void MudaFundo(string fundo)
+        public void MudaBtn(string texto)
         {
-            switch (fundo)
+            btnMovimenta.Enabled = false;
+            btnComunica.Enabled = false;
+            btnAlimenta.Enabled = false;
+            btnAmamenta.Enabled = false;
+            btnCisca.Enabled = false;
+            btnVoa.Enabled = false;
+            btnBota.Enabled = false;
+            btnChoca.Enabled = false;
+            btnAtaca.Enabled = false;
+
+            if (texto.Contains("1"))//animal
             {
-                case "gelo":
-                    pAmbiente.BackgroundImage = Resources.FundoGelo;
-                    break;
-
-                case "fazenda":
-                    pAmbiente.BackgroundImage = Resources.FundoFazenda;
-                    break;
-
-                case "floresta":
-                    pAmbiente.BackgroundImage = Resources.FundoFloresta;
-                    break;
+                btnMovimenta.Enabled = true;
+                btnComunica.Enabled = true;
+                btnAlimenta.Enabled = true;
+            }
+            if (texto.Contains("2"))//mamifero
+            {
+                btnAmamenta.Enabled = true;
+            }
+            if (texto.Contains("3"))//ave
+            {
+                btnCisca.Enabled = true;
+            }
+            if (texto.Contains("4"))//Ivoar
+            {
+                btnVoa.Enabled = true;
+            }
+            if (texto.Contains("5"))//IOviparo
+            {
+                btnBota.Enabled = true;
+                btnChoca.Enabled = true;
+            }
+            if (texto.Contains("6"))//IPredador
+            {
+                btnAtaca.Enabled = true;
             }
         }
     }
