@@ -1,15 +1,15 @@
-﻿using System;
+﻿using ATIVIDADE_1.Properties;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ATIVIDADE_1
 {
-    class Cachorro : Mamifero, IPredador
+    class Cachorro : Mamifero
     {
-        public void Atacar() { }
-
         public Cachorro(string nome, DateTime nasc, char sexo)
         {
             Nome = nome;
@@ -17,7 +17,7 @@ namespace ATIVIDADE_1
             Sexo = sexo;
 
             QtdMamas = 8;
-            CorPelo = "Marrom"; //mudar de acordo com a Imagem <---------------------
+            CorPelo = "Marrom";
             Pelo = true;
             Carnivoro = true;
             Peconhento = false;

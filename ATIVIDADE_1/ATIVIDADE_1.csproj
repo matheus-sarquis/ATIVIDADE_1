@@ -56,6 +56,7 @@
     <Compile Include="Animais\Coruja.cs" />
     <Compile Include="Animais\Gaviao.cs" />
     <Compile Include="Animais\Esquilo.cs" />
+    <Compile Include="Classes\pIctureBox.cs" />
     <Compile Include="frAddAnimal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +144,83 @@
     <None Include="Resources\FundoFloresta.jpeg" />
     <None Include="Resources\FundoGelo.jpeg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Coruja chocando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coruja com ovo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gavião chocando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gavião com ovo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ornitorrinco com ovo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pato chocando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pato com ovo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pinguim chocando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pinguim com ovo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pombo chocando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pombo com ovo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tartaruga com ovo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Morcego comendo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ornitorrinco comendo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pato comendo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pinguim comendo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pombo comendo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tubarão comendo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tartaruga comendo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leão comendo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gavião comendo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Esquilo comendo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gato comendo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coruja comendo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cachorro comendo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Baleia comendo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

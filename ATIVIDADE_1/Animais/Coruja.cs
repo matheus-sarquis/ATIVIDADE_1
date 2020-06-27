@@ -1,8 +1,10 @@
-﻿using System;
+﻿using ATIVIDADE_1.Properties;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ATIVIDADE_1
 {
@@ -23,16 +25,25 @@ namespace ATIVIDADE_1
             Sexo = sexo;
 
             Rapina = true;
-            CorPena = "Marrom" ; //conferir com a imagem q será utilizada <--------------
+            CorPena = "Marrom" ; 
             Peconhento = false;
             Carnivoro = true;
-            AltitudeMax = 20; //<------------------------
+            AltitudeMax = 20; 
             VelocidadeVoo = 15;
         }
 
-        public void Botar() { }
-        public void Chocar() { }
+        public void Botar(ref PictureBox picAnimal)
+        {
+            picAnimal.BackgroundImage = Resources.Coruja_com_ovo;
+        }
+        public void Chocar(ref PictureBox picAnimal)
+        {
+            picAnimal.BackgroundImage = Resources.Coruja_chocando;
+        }
         public void Voar() { }
-        public void Atacar() { }
+        public void Atacar(ref PictureBox picAnimal)
+        {
+            picAnimal.BackgroundImage = Resources.Coruja;//coruja atacando
+        }
     }
 }

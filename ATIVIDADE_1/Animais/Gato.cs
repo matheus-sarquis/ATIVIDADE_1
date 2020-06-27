@@ -1,15 +1,15 @@
-﻿using System;
+﻿using ATIVIDADE_1.Properties;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ATIVIDADE_1
 {
-    class Gato : Mamifero, IPredador
+    class Gato : Mamifero
     {
-        public void Atacar() { }
-
         public Gato(string nome, DateTime nasc, char sexo)
         {
             Nome = nome;

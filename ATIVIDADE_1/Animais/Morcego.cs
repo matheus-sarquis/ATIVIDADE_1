@@ -1,8 +1,10 @@
-﻿using System;
+﻿using ATIVIDADE_1.Properties;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ATIVIDADE_1
 {
@@ -31,7 +33,10 @@ namespace ATIVIDADE_1
             Peconhento = false;
         }
 
-        public void Atacar() { }
+        public void Atacar(ref PictureBox picAnimal)
+        {
+            picAnimal.BackgroundImage = Resources.Morcego;//morcego atacando
+        }
         public void Voar() { }        
     }
 }

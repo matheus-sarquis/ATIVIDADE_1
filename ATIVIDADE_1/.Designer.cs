@@ -38,7 +38,6 @@
             this.btnMovimenta = new System.Windows.Forms.Button();
             this.btnlistagem = new System.Windows.Forms.Button();
             this.pAmbiente = new System.Windows.Forms.Panel();
-            this.pbAnimal = new System.Windows.Forms.PictureBox();
             this.btnBota = new System.Windows.Forms.Button();
             this.btnChoca = new System.Windows.Forms.Button();
             this.btnVoa = new System.Windows.Forms.Button();
@@ -49,6 +48,7 @@
             this.lblInfo = new System.Windows.Forms.Label();
             this.btnComunica = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.pbAnimal = new System.Windows.Forms.PictureBox();
             this.pAmbiente.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbAnimal)).BeginInit();
             this.SuspendLayout();
@@ -182,17 +182,6 @@
             this.pAmbiente.Size = new System.Drawing.Size(1020, 595);
             this.pAmbiente.TabIndex = 14;
             // 
-            // pbAnimal
-            // 
-            this.pbAnimal.BackColor = System.Drawing.Color.Transparent;
-            this.pbAnimal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbAnimal.Location = new System.Drawing.Point(107, 210);
-            this.pbAnimal.Name = "pbAnimal";
-            this.pbAnimal.Size = new System.Drawing.Size(241, 197);
-            this.pbAnimal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbAnimal.TabIndex = 24;
-            this.pbAnimal.TabStop = false;
-            // 
             // btnBota
             // 
             this.btnBota.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
@@ -206,6 +195,7 @@
             this.btnBota.TabIndex = 15;
             this.btnBota.Text = "Botar";
             this.btnBota.UseVisualStyleBackColor = false;
+            this.btnBota.Click += new System.EventHandler(this.btnBota_Click);
             // 
             // btnChoca
             // 
@@ -220,6 +210,7 @@
             this.btnChoca.TabIndex = 16;
             this.btnChoca.Text = "Chocar";
             this.btnChoca.UseVisualStyleBackColor = false;
+            this.btnChoca.Click += new System.EventHandler(this.btnChoca_Click);
             // 
             // btnVoa
             // 
@@ -248,6 +239,7 @@
             this.btnAmamenta.TabIndex = 18;
             this.btnAmamenta.Text = "Amamentar";
             this.btnAmamenta.UseVisualStyleBackColor = false;
+            this.btnAmamenta.Click += new System.EventHandler(this.btnAmamenta_Click);
             // 
             // btnAtaca
             // 
@@ -262,6 +254,7 @@
             this.btnAtaca.TabIndex = 19;
             this.btnAtaca.Text = "Atacar";
             this.btnAtaca.UseVisualStyleBackColor = false;
+            this.btnAtaca.Click += new System.EventHandler(this.btnAtaca_Click);
             // 
             // btnAlimenta
             // 
@@ -276,6 +269,7 @@
             this.btnAlimenta.TabIndex = 20;
             this.btnAlimenta.Text = "Alimentar";
             this.btnAlimenta.UseVisualStyleBackColor = false;
+            this.btnAlimenta.Click += new System.EventHandler(this.btnAlimenta_Click);
             // 
             // btnCisca
             // 
@@ -290,6 +284,7 @@
             this.btnCisca.TabIndex = 21;
             this.btnCisca.Text = "Ciscar";
             this.btnCisca.UseVisualStyleBackColor = false;
+            this.btnCisca.Click += new System.EventHandler(this.btnCisca_Click);
             // 
             // lblInfo
             // 
@@ -313,6 +308,7 @@
             this.btnComunica.TabIndex = 24;
             this.btnComunica.Text = "Comunicar";
             this.btnComunica.UseVisualStyleBackColor = false;
+            this.btnComunica.Click += new System.EventHandler(this.btnComunica_Click);
             // 
             // label2
             // 
@@ -323,6 +319,17 @@
             this.label2.Size = new System.Drawing.Size(90, 37);
             this.label2.TabIndex = 25;
             this.label2.Text = "Ações :";
+            // 
+            // pbAnimal
+            // 
+            this.pbAnimal.BackColor = System.Drawing.Color.Transparent;
+            this.pbAnimal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbAnimal.Location = new System.Drawing.Point(107, 210);
+            this.pbAnimal.Name = "pbAnimal";
+            this.pbAnimal.Size = new System.Drawing.Size(241, 197);
+            this.pbAnimal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbAnimal.TabIndex = 24;
+            this.pbAnimal.TabStop = false;
             // 
             // frPrincipal
             // 

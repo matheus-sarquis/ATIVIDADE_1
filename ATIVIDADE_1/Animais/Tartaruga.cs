@@ -1,8 +1,10 @@
-﻿using System;
+﻿using ATIVIDADE_1.Properties;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ATIVIDADE_1
 {
@@ -33,7 +35,14 @@ namespace ATIVIDADE_1
             Peconhento = false;
         }
 
-        public void Botar() { }
-        public void Chocar() { }
+        public void Botar(ref PictureBox picAnimal)
+        {
+            picAnimal.BackgroundImage = Resources.Tartaruga_com_ovo;
+        }
+
+        public void Chocar(ref PictureBox picAnimal)
+        {
+
+        }
     }
 }
