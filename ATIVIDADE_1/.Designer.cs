@@ -38,6 +38,7 @@
             this.btnMovimentar = new System.Windows.Forms.Button();
             this.btnlistagem = new System.Windows.Forms.Button();
             this.pAmbiente = new System.Windows.Forms.Panel();
+            this.pbAnimal = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -47,7 +48,6 @@
             this.button7 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.lblInfo = new System.Windows.Forms.Label();
-            this.pbAnimal = new System.Windows.Forms.PictureBox();
             this.pAmbiente.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbAnimal)).BeginInit();
             this.SuspendLayout();
@@ -173,12 +173,25 @@
             // 
             // pAmbiente
             // 
+            this.pAmbiente.BackgroundImage = global::ATIVIDADE_1.Properties.Resources.FundoFazenda;
             this.pAmbiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pAmbiente.Controls.Add(this.pbAnimal);
             this.pAmbiente.Location = new System.Drawing.Point(217, 74);
             this.pAmbiente.Name = "pAmbiente";
             this.pAmbiente.Size = new System.Drawing.Size(1020, 595);
             this.pAmbiente.TabIndex = 14;
+            // 
+            // pbAnimal
+            // 
+            this.pbAnimal.BackColor = System.Drawing.Color.Transparent;
+            this.pbAnimal.BackgroundImage = global::ATIVIDADE_1.Properties.Resources.Tartaruga;
+            this.pbAnimal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbAnimal.Location = new System.Drawing.Point(107, 210);
+            this.pbAnimal.Name = "pbAnimal";
+            this.pbAnimal.Size = new System.Drawing.Size(241, 197);
+            this.pbAnimal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbAnimal.TabIndex = 24;
+            this.pbAnimal.TabStop = false;
             // 
             // button1
             // 
@@ -289,17 +302,6 @@
             this.lblInfo.Name = "lblInfo";
             this.lblInfo.Size = new System.Drawing.Size(0, 23);
             this.lblInfo.TabIndex = 23;
-            // 
-            // pbAnimal
-            // 
-            this.pbAnimal.BackColor = System.Drawing.Color.Transparent;
-            this.pbAnimal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbAnimal.Image = global::ATIVIDADE_1.Properties.Resources.Tubarão;
-            this.pbAnimal.Location = new System.Drawing.Point(236, 49);
-            this.pbAnimal.Name = "pbAnimal";
-            this.pbAnimal.Size = new System.Drawing.Size(197, 153);
-            this.pbAnimal.TabIndex = 24;
-            this.pbAnimal.TabStop = false;
             // 
             // frPrincipal
             // 

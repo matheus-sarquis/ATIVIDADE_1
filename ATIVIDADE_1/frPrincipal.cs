@@ -128,84 +128,112 @@ namespace ATIVIDADE_1
                         {
                             pAmbiente.BackgroundImage = Resources.FundoGelo;
                             pbAnimal.BackgroundImage = Resources.Baleia;
+                            pbAnimal.Location = new Point(237, 278);
+                            pbAnimal.Size = new Size(464, 346);
                         }
 
                         if (item is Cachorro)
                         {
                             pAmbiente.BackgroundImage = Resources.FundoFazenda;
                             pbAnimal.BackgroundImage = Resources.Cachorro;
+                            pbAnimal.Location = new Point(721, 199);
+                            pbAnimal.Size = new Size(196, 173);
                         }
 
                         if (item is Coruja)
                         {
                             pAmbiente.BackgroundImage = Resources.FundoFazenda;
                             pbAnimal.BackgroundImage = Resources.Coruja;
+                            pbAnimal.Location = new Point(271, 149);
+                            pbAnimal.Size = new Size(209, 185);
                         }
 
                         if (item is Esquilo)
                         {
                             pAmbiente.BackgroundImage = Resources.FundoFloresta;
                             pbAnimal.BackgroundImage = Resources.Esquilo;
+                            pbAnimal.Location = new Point(499, 228);
+                            pbAnimal.Size = new Size(152, 144);
                         }
 
                         if (item is Gato)
                         {
                             pAmbiente.BackgroundImage = Resources.FundoFazenda;
                             pbAnimal.BackgroundImage = Resources.Gato;
+                            pbAnimal.Location = new Point(721, 199);
+                            pbAnimal.Size = new Size(196, 173);
                         }
 
                         if (item is Gaviao)
                         {
                             pAmbiente.BackgroundImage = Resources.FundoFloresta;
                             pbAnimal.BackgroundImage = Resources.Gavião;
+                            pbAnimal.Location = new Point(753, 104);
+                            pbAnimal.Size = new Size(214, 186);
                         }
 
                         if (item is Leao)
                         {
                             pAmbiente.BackgroundImage = Resources.FundoFloresta;
                             pbAnimal.BackgroundImage = Resources.Leão;
+                            pbAnimal.Location = new Point(433, 238);
+                            pbAnimal.Size = new Size(338, 278);
                         }
 
                         if (item is Morcego)
                         {
                             pAmbiente.BackgroundImage = Resources.FundoFazenda;
                             pbAnimal.BackgroundImage = Resources.Morcego;
+                            pbAnimal.Location = new Point(271, 149);
+                            pbAnimal.Size = new Size(209, 185);
                         }
 
                         if (item is Ornitorrinco)
                         {
                             pAmbiente.BackgroundImage = Resources.FundoFloresta;
                             pbAnimal.BackgroundImage = Resources.Ornitorrinco;
+                            pbAnimal.Location = new Point(424, 328);
+                            pbAnimal.Size = new Size(241, 197);
                         }
 
                         if (item is Pato)
                         {
                             pAmbiente.BackgroundImage = Resources.FundoFazenda;
                             pbAnimal.BackgroundImage = Resources.Pato;
+                            pbAnimal.Location = new Point(87, 254);
+                            pbAnimal.Size = new Size(152, 139);
                         }
 
                         if (item is Pinguim)
                         {
                             pAmbiente.BackgroundImage = Resources.FundoGelo;
                             pbAnimal.BackgroundImage = Resources.Pinguim;
+                            pbAnimal.Location = new Point(741, 78);
+                            pbAnimal.Size = new Size(219, 206);
                         }
 
                         if (item is Pombo)
                         {
                             pAmbiente.BackgroundImage = Resources.FundoFazenda;
                             pbAnimal.BackgroundImage = Resources.Pombo;
+                            pbAnimal.Location = new Point(271, 149);
+                            pbAnimal.Size = new Size(152, 139);
                         }
 
                         if (item is Tartaruga)
                         {
                             pAmbiente.BackgroundImage = Resources.FundoFazenda;
                             pbAnimal.BackgroundImage = Resources.Tartaruga;
+                            pbAnimal.Location = new Point(107, 210);
+                            pbAnimal.Size = new Size(241, 197);
                         }
 
                         if (item is Tubarao)
                         {
                             pAmbiente.BackgroundImage = Resources.FundoGelo;
                             pbAnimal.BackgroundImage = Resources.Tubarão;
+                            pbAnimal.Location = new Point(261, 178);
+                            pbAnimal.Size = new Size(464, 511);
                         }
                     }
                 }
