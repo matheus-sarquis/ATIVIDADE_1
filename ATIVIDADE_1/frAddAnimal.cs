@@ -23,7 +23,7 @@ namespace ATIVIDADE_1
             txtData.Clear();
             txtNome.Clear();
             cbAnimal.Text = "";
-            cbSexo.Text = "";         
+            cbSexo.Text = "";
         }
 
         private void btnAdcionar_Click(object sender, EventArgs e)
@@ -176,8 +176,7 @@ namespace ATIVIDADE_1
                 catch(Exception excep)
                 {
                     MessageBox.Show(excep.Message + $" - ({txtNome.Text})");
-                }
-                //VG.AttAnimais();
+                }                
                 LimpaCampos();
                 break;
             } while (1 == 1);
@@ -185,6 +184,7 @@ namespace ATIVIDADE_1
 
         private void frAddAnimal_FormClosing(object sender, FormClosingEventArgs e)
         {
+            VG.AttAnimais();
             File.WriteAllText("Animais.txt", VG.arvore.ListagemNomesEmOrdem());
         }
 
@@ -232,9 +232,7 @@ namespace ATIVIDADE_1
                 VG.arvore.Insere(tartaruga);
 
                 Tubarao tubarao = new Tubarao("Tubarao", DateTime.Now, 'F');
-                VG.arvore.Insere(tubarao);
-
-                //VG.AttAnimais();
+                VG.arvore.Insere(tubarao);                
             }
             catch (Exception except)
             {

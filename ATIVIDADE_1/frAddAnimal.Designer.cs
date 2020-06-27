@@ -54,6 +54,7 @@
             // 
             // cbAnimal
             // 
+            this.cbAnimal.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbAnimal.FormattingEnabled = true;
             this.cbAnimal.Items.AddRange(new object[] {
             "Baleia",

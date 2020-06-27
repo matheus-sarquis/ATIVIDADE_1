@@ -46,6 +46,10 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.lblInfo = new System.Windows.Forms.Label();
+            this.pbAnimal = new System.Windows.Forms.PictureBox();
+            this.pAmbiente.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbAnimal)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAddAnimal
@@ -74,11 +78,13 @@
             // 
             // cbAnimal
             // 
+            this.cbAnimal.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbAnimal.FormattingEnabled = true;
             this.cbAnimal.Location = new System.Drawing.Point(12, 100);
             this.cbAnimal.Name = "cbAnimal";
             this.cbAnimal.Size = new System.Drawing.Size(198, 21);
             this.cbAnimal.TabIndex = 5;
+            this.cbAnimal.SelectedIndexChanged += new System.EventHandler(this.cbAnimal_SelectedIndexChanged);
             this.cbAnimal.Click += new System.EventHandler(this.cbAnimal_Click);
             // 
             // btnDireita
@@ -168,6 +174,7 @@
             // pAmbiente
             // 
             this.pAmbiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pAmbiente.Controls.Add(this.pbAnimal);
             this.pAmbiente.Location = new System.Drawing.Point(217, 74);
             this.pAmbiente.Name = "pAmbiente";
             this.pAmbiente.Size = new System.Drawing.Size(1020, 595);
@@ -274,12 +281,33 @@
             this.label2.TabIndex = 22;
             this.label2.Text = "Ações:";
             // 
+            // lblInfo
+            // 
+            this.lblInfo.AutoSize = true;
+            this.lblInfo.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInfo.Location = new System.Drawing.Point(391, 12);
+            this.lblInfo.Name = "lblInfo";
+            this.lblInfo.Size = new System.Drawing.Size(0, 23);
+            this.lblInfo.TabIndex = 23;
+            // 
+            // pbAnimal
+            // 
+            this.pbAnimal.BackColor = System.Drawing.Color.Transparent;
+            this.pbAnimal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbAnimal.Image = global::ATIVIDADE_1.Properties.Resources.Tubarão;
+            this.pbAnimal.Location = new System.Drawing.Point(236, 49);
+            this.pbAnimal.Name = "pbAnimal";
+            this.pbAnimal.Size = new System.Drawing.Size(197, 153);
+            this.pbAnimal.TabIndex = 24;
+            this.pbAnimal.TabStop = false;
+            // 
             // frPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(1249, 682);
+            this.Controls.Add(this.lblInfo);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button7);
@@ -300,6 +328,8 @@
             this.Controls.Add(this.btnAddAnimal);
             this.Name = "frPrincipal";
             this.Text = "Menu";
+            this.pAmbiente.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbAnimal)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -325,6 +355,8 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblInfo;
+        private System.Windows.Forms.PictureBox pbAnimal;
     }
 }
 

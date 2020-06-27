@@ -125,20 +125,20 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Imagens\Baleia.png" />
-    <Content Include="Imagens\Cachorro.png" />
-    <Content Include="Imagens\Coruja.png" />
-    <Content Include="Imagens\Esquilo.png" />
-    <Content Include="Imagens\Gato.png" />
-    <Content Include="Imagens\Gavião.png" />
-    <Content Include="Imagens\Leão.png" />
-    <Content Include="Imagens\Morcego.png" />
-    <Content Include="Imagens\Ornitorrinco.png" />
-    <Content Include="Imagens\Pato.png" />
-    <Content Include="Imagens\Pinguim.png" />
-    <Content Include="Imagens\Pombo.png" />
-    <Content Include="Imagens\Tartaruga.png" />
-    <Content Include="Imagens\Tubarão.png" />
+    <None Include="Resources\Tubarão.png" />
+    <None Include="Resources\Tartaruga.png" />
+    <None Include="Resources\Pombo.png" />
+    <None Include="Resources\Pinguim.png" />
+    <None Include="Resources\Pato.png" />
+    <None Include="Resources\Ornitorrinco.png" />
+    <None Include="Resources\Morcego.png" />
+    <None Include="Resources\Leão.png" />
+    <None Include="Resources\Gavião.png" />
+    <None Include="Resources\Gato.png" />
+    <None Include="Resources\Esquilo.png" />
+    <None Include="Resources\Coruja.png" />
+    <None Include="Resources\Cachorro.png" />
+    <None Include="Resources\Baleia.png" />
     <None Include="Resources\FundoFazenda.jpeg" />
     <None Include="Resources\FundoFloresta.jpeg" />
     <None Include="Resources\FundoGelo.jpeg" />

@@ -162,7 +162,7 @@ namespace ATIVIDADE_1
                 }
             }
             string conteudo = "";
-            for (i = 1; i <= qtdeNodosInternos - 1; i++)
+            for (i = 0; i <= qtdeNodosInternos - 1; i++)
             {
                 conteudo += $" - {a[i].Nome}" + Environment.NewLine;
             }
