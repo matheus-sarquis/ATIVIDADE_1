@@ -114,6 +114,7 @@
             this.btnEsquerda.TabIndex = 10;
             this.btnEsquerda.Text = "←";
             this.btnEsquerda.UseVisualStyleBackColor = false;
+            this.btnEsquerda.Click += new System.EventHandler(this.btnEsquerda_Click);
             // 
             // btnMovimenta
             // 

@@ -22,27 +22,27 @@ namespace ATIVIDADE_1
         {
             if (tipoAnimal == "coruja")
             {
-                picAnimal.BackgroundImage = Resources.Coruja_ciscando;//amamentar
+                picAnimal.BackgroundImage = Resources.Coruja_ciscando;//ciscar
             }
 
             if (tipoAnimal == "gaviao")
             {
-                picAnimal.BackgroundImage = Resources.Gavião_ciscando;//amamentar
+                picAnimal.BackgroundImage = Resources.Gavião_ciscando;//ciscar
             }
 
             if (tipoAnimal == "pinguim")
             {
-                picAnimal.BackgroundImage = Resources.Pinguim_ciscando;//amamentar
+                picAnimal.BackgroundImage = Resources.Pinguim_ciscando;//ciscar
             }
 
             if (tipoAnimal == "pato")
             {
-                picAnimal.BackgroundImage = Resources.Pato_ciscando;//amamentar
+                picAnimal.BackgroundImage = Resources.Pato_ciscando;//ciscar
             }
 
             if (tipoAnimal == "pombo")
             {
-                picAnimal.BackgroundImage = Resources.Pombo_ciscando;//amamentar
+                picAnimal.BackgroundImage = Resources.Pombo_ciscando;//ciscar
             }
         }
     }
