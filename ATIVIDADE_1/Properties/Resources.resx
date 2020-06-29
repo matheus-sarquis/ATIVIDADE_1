@@ -121,8 +121,14 @@
   <data name="Coruja" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coruja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Gavião comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gavião comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Leão" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Leão.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Esquilo comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Esquilo comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Morcego" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Morcego.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,17 +139,26 @@
   <data name="Coruja chocando" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coruja chocando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Pombo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pombo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Cachorro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cachorro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tubarão comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tubarão comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pombo ciscando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pombo ciscando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Pato com ovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pato com ovo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Coruja com ovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coruja com ovo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coruja ciscando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coruja ciscando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pato ciscando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pato ciscando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Pombo chocando" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pombo chocando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,14 +169,20 @@
   <data name="Pombo com ovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pombo com ovo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Morcego comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Morcego comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="FundoFazenda" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FundoFazenda.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Pinguim chocando" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pinguim chocando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Pinguim ciscando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pinguim ciscando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Tartaruga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tartaruga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Pombo comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pombo comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pombo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pombo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Gato" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gato.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,11 +193,17 @@
   <data name="Gavião" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gavião.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Pinguim com ovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pinguim com ovo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Tartaruga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tartaruga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Tartaruga com ovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tartaruga com ovo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gato comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gato comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coruja comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coruja comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Gavião com ovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gavião com ovo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,11 +217,32 @@
   <data name="Pinguim" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pinguim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Pato comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pato comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pinguim com ovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pinguim com ovo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pinguim chocando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pinguim chocando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Gavião chocando" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gavião chocando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Baleia comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Baleia comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="FundoGelo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FundoGelo.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pinguim comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pinguim comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cachorro comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cachorro comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Leão comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leão comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FundoFloresta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FundoFloresta.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,49 +250,25 @@
   <data name="Baleia" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Baleia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Tubarão" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tubarão.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Morcego comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Morcego comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ornitorrinco comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ornitorrinco comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Pato comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pato comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Pinguim comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pinguim comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Pombo comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pombo comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Tubarão comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tubarão comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Gavião ciscando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gavião ciscando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Tartaruga comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tartaruga comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Leão comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Leão comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Tubarão" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tubarão.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Gavião comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Gavião comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ornitorrinco comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ornitorrinco comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Esquilo comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Esquilo comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Gavião atacando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gavião atacando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Gato comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Gato comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Leão atacando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leão atacando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Coruja comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Coruja comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cachorro comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cachorro comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Baleia comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Baleia comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Tubarão atacando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tubarão atacando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

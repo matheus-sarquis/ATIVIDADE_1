@@ -577,17 +577,11 @@ namespace ATIVIDADE_1
             {
                 if (cbAnimal.Text == item.Nome)
                 {
-                    if (item is Coruja)
-                        (item as Coruja).Atacar(ref pbAnimal);
-
                     if (item is Gaviao)
                         (item as Gaviao).Atacar(ref pbAnimal);
 
                     if (item is Leao)
                         (item as Leao).Atacar(ref pbAnimal);
-
-                    if (item is Morcego)
-                        (item as Morcego).Atacar(ref pbAnimal);
 
                     if (item is Tubarao)
                         (item as Tubarao).Atacar(ref pbAnimal);
@@ -600,16 +594,12 @@ namespace ATIVIDADE_1
             if (btnMovimenta.Text == "Movimentar")
             {
                 cbAnimal_SelectedIndexChanged(sender, e);
-                btnBaixo.Enabled = true;
-                btnCima.Enabled = true;
                 btnDireita.Enabled = true;
                 btnEsquerda.Enabled = true;
                 btnMovimenta.Text = "Parar";
             }
             else
             {
-                btnBaixo.Enabled = false;
-                btnCima.Enabled = false;
                 btnDireita.Enabled = false;
                 btnEsquerda.Enabled = false;
                 btnMovimenta.Text = "Movimentar";
@@ -640,5 +630,10 @@ namespace ATIVIDADE_1
             }
         }
         #endregion
+
+        private void btnDireita_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

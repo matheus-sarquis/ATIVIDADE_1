@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace ATIVIDADE_1
 {
-    class Morcego : Mamifero, IVoar, IPredador
+    class Morcego : Mamifero, IVoar
     {
         #region Variáveis
         private int altitudeMax;
@@ -32,11 +32,7 @@ namespace ATIVIDADE_1
             Carnivoro = false;
             Peconhento = false;
         }
-
-        public void Atacar(ref PictureBox picAnimal)
-        {
-            picAnimal.BackgroundImage = Resources.Morcego;//morcego atacando
-        }
+        
         public void Voar() { }        
     }
 }

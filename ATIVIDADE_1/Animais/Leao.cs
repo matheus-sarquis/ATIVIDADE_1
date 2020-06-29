@@ -25,7 +25,7 @@ namespace ATIVIDADE_1
 
         public void Atacar(ref PictureBox picAnimal)
         {
-            picAnimal.BackgroundImage = Resources.Leão;//leao atacando
+            picAnimal.BackgroundImage = Resources.Leão_atacando;
         }
     }
 }

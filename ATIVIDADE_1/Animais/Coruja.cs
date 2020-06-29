@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace ATIVIDADE_1
 {
-    class Coruja : Ave, IOviparo, IVoar, IPredador
+    class Coruja : Ave, IOviparo, IVoar
     {
         #region Variáveis
         private int altitudeMax;
@@ -36,14 +36,12 @@ namespace ATIVIDADE_1
         {
             picAnimal.BackgroundImage = Resources.Coruja_com_ovo;
         }
+
         public void Chocar(ref PictureBox picAnimal)
         {
             picAnimal.BackgroundImage = Resources.Coruja_chocando;
         }
-        public void Voar() { }
-        public void Atacar(ref PictureBox picAnimal)
-        {
-            picAnimal.BackgroundImage = Resources.Coruja;//coruja atacando
-        }
+
+        public void Voar() { }        
     }
 }

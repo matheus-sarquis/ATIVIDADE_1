@@ -222,5 +222,29 @@
   <ItemGroup>
     <None Include="Resources\Baleia comendo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gavião ciscando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coruja ciscando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pinguim ciscando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pato ciscando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pombo ciscando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gavião atacando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leão atacando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tubarão atacando.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

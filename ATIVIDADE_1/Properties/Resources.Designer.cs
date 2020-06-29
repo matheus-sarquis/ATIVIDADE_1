@@ -123,6 +123,16 @@ namespace ATIVIDADE_1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Coruja_ciscando {
+            get {
+                object obj = ResourceManager.GetObject("Coruja ciscando", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Coruja_com_ovo {
             get {
                 object obj = ResourceManager.GetObject("Coruja com ovo", resourceCulture);
@@ -223,9 +233,29 @@ namespace ATIVIDADE_1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Gavião_atacando {
+            get {
+                object obj = ResourceManager.GetObject("Gavião atacando", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Gavião_chocando {
             get {
                 object obj = ResourceManager.GetObject("Gavião chocando", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gavião_ciscando {
+            get {
+                object obj = ResourceManager.GetObject("Gavião ciscando", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -256,6 +286,16 @@ namespace ATIVIDADE_1.Properties {
         internal static System.Drawing.Bitmap Leão {
             get {
                 object obj = ResourceManager.GetObject("Leão", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Leão_atacando {
+            get {
+                object obj = ResourceManager.GetObject("Leão atacando", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -343,6 +383,16 @@ namespace ATIVIDADE_1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Pato_ciscando {
+            get {
+                object obj = ResourceManager.GetObject("Pato ciscando", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Pato_com_ovo {
             get {
                 object obj = ResourceManager.GetObject("Pato com ovo", resourceCulture);
@@ -383,6 +433,16 @@ namespace ATIVIDADE_1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Pinguim_ciscando {
+            get {
+                object obj = ResourceManager.GetObject("Pinguim ciscando", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Pinguim_com_ovo {
             get {
                 object obj = ResourceManager.GetObject("Pinguim com ovo", resourceCulture);
@@ -416,6 +476,16 @@ namespace ATIVIDADE_1.Properties {
         internal static System.Drawing.Bitmap Pombo_chocando {
             get {
                 object obj = ResourceManager.GetObject("Pombo chocando", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pombo_ciscando {
+            get {
+                object obj = ResourceManager.GetObject("Pombo ciscando", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -476,6 +546,16 @@ namespace ATIVIDADE_1.Properties {
         internal static System.Drawing.Bitmap Tubarão {
             get {
                 object obj = ResourceManager.GetObject("Tubarão", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tubarão_atacando {
+            get {
+                object obj = ResourceManager.GetObject("Tubarão atacando", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
