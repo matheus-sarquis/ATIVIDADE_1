@@ -34,73 +34,76 @@ namespace ATIVIDADE_1
             return idade;
         }
 
-        public void Movimentar() { }
+        public void Movimentar()
+        {
+
+        }
 
         public void Comunicar(ref PictureBox picAnimal, string tipoAnimal)
         {
             if (tipoAnimal == "baleia")
             {
-                picAnimal.BackgroundImage = Resources.Baleia;//comunicando
+                picAnimal.BackgroundImage = Resources.Baleia_falando;//comunicando
             }
 
             if (tipoAnimal == "cachorro")
             {
-                picAnimal.BackgroundImage = Resources.Cachorro;//comunicando
+                picAnimal.BackgroundImage = Resources.Cachorro_falando;//comunicando
             }
 
             if (tipoAnimal == "coruja")
             {
-                picAnimal.BackgroundImage = Resources.Coruja;//comunicando
+                picAnimal.BackgroundImage = Resources.Coruja_falando;//comunicando
             }
 
             if (tipoAnimal == "esquilo")
             {
-                picAnimal.BackgroundImage = Resources.Esquilo;//comunicando
+                picAnimal.BackgroundImage = Resources.Esquilo_falando;//comunicando
             }
 
             if (tipoAnimal == "gato")
             {
-                picAnimal.BackgroundImage = Resources.Gato;//comunicando
+                picAnimal.BackgroundImage = Resources.Gato_falando;//comunicando
             }
 
             if (tipoAnimal == "gaviao")
             {
-                picAnimal.BackgroundImage = Resources.Gavião;//comunicando
+                picAnimal.BackgroundImage = Resources.Gaviao_falando;//comunicando
             }
 
             if (tipoAnimal == "leao")
             {
-                picAnimal.BackgroundImage = Resources.Leão;//comunicando
+                picAnimal.BackgroundImage = Resources.Leao_falando;//comunicando
             }
 
             if (tipoAnimal == "morcego")
             {
-                picAnimal.BackgroundImage = Resources.Morcego;//comunicando
+                picAnimal.BackgroundImage = Resources.Morcego_falando;//comunicando
             }
 
             if (tipoAnimal == "ornitorrinco")
             {
-                picAnimal.BackgroundImage = Resources.Ornitorrinco;//comunicando
+                picAnimal.BackgroundImage = Resources.Ornitorrinco_falando;//comunicando
             }
             if (tipoAnimal == "pato")
             {
-                picAnimal.BackgroundImage = Resources.Pato;//comunicando
+                picAnimal.BackgroundImage = Resources.Pato_falando;//comunicando
             }
             if (tipoAnimal == "pinguim")
             {
-                picAnimal.BackgroundImage = Resources.Pinguim;//comunicando
+                picAnimal.BackgroundImage = Resources.Pinguim_falando;//comunicando
             }
             if (tipoAnimal == "pombo")
             {
-                picAnimal.BackgroundImage = Resources.Pombo;//comunicando
+                picAnimal.BackgroundImage = Resources.Pombo_falando;//comunicando
             }
             if (tipoAnimal == "tartaruga")
             {
-                picAnimal.BackgroundImage = Resources.Tartaruga;//comunicando
+                picAnimal.BackgroundImage = Resources.Tartaruga_tentando_falar;//comunicando
             }
             if (tipoAnimal == "tubarao")
             {
-                picAnimal.BackgroundImage = Resources.Tubarão;//comunicando
+                picAnimal.BackgroundImage = Resources.Tubarao_tentando_falar;//comunicando
             }
         }
 

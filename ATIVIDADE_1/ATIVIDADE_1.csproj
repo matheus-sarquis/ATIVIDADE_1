@@ -245,5 +245,68 @@
   <ItemGroup>
     <None Include="Resources\Tubarão atacando.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Morcego leite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cachorro leite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leao leite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Esquilo leite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gato leite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Baleia leite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ornitorrinco leite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Morcego falando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ornitorrinco falando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pato falando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pinguim falando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tubarao tentando falar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pombo falando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tartaruga tentando falar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leao falando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gaviao falando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coruja falando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Esquilo falando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cachorro falando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gato falando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Baleia falando.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

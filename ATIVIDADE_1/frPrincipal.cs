@@ -19,8 +19,6 @@ namespace ATIVIDADE_1
         }
 
         #region metodos
-        
-
         public void MudaBtn(string texto)
         {
             btnMovimenta.Text = "Movimentar";
@@ -64,7 +62,7 @@ namespace ATIVIDADE_1
                 btnAtaca.Enabled = true;
             }
         }
-
+        
         public string VerificaPeconhoCarni(Animal animal)
         {
             string texto = "";
@@ -201,7 +199,7 @@ namespace ATIVIDADE_1
                             pbAnimal.BackgroundImage = Resources.Morcego;
                             pbAnimal.Location = new Point(271, 149);
                             pbAnimal.Size = new Size(209, 185);
-                            MudaBtn("1246");
+                            MudaBtn("124");
                         }
 
                         if (item is Ornitorrinco)
@@ -455,22 +453,22 @@ namespace ATIVIDADE_1
                         (item as Baleia).Amamentar("baleia", ref pbAnimal);
 
                     if (item is Cachorro)
-                        (item as Cachorro).Amamentar("baleia", ref pbAnimal);
+                        (item as Cachorro).Amamentar("cachorro", ref pbAnimal);
 
                     if (item is Esquilo)
-                        (item as Esquilo).Amamentar("baleia", ref pbAnimal);
+                        (item as Esquilo).Amamentar("esquilo", ref pbAnimal);
 
                     if (item is Gato)
-                        (item as Gato).Amamentar("baleia", ref pbAnimal);
+                        (item as Gato).Amamentar("gato", ref pbAnimal);
 
                     if (item is Leao)
-                        (item as Leao).Amamentar("baleia", ref pbAnimal);
+                        (item as Leao).Amamentar("leao", ref pbAnimal);
 
                     if (item is Morcego)
-                        (item as Morcego).Amamentar("baleia", ref pbAnimal);
+                        (item as Morcego).Amamentar("morcego", ref pbAnimal);
 
                     if (item is Ornitorrinco)
-                        (item as Ornitorrinco).Amamentar("baleia", ref pbAnimal);
+                        (item as Ornitorrinco).Amamentar("ornitorrinco", ref pbAnimal);
                 }
             }
         }

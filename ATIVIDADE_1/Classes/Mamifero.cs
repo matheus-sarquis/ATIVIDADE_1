@@ -24,37 +24,37 @@ namespace ATIVIDADE_1
         {
             if (tipoAnimal == "baleia")
             {
-                picAnimal.BackgroundImage = Resources.Baleia;//amamentar
+                picAnimal.BackgroundImage = Resources.Baleia_leite;
             }
 
             if (tipoAnimal == "cachorro")
             {
-                picAnimal.BackgroundImage = Resources.Cachorro;//amamentar
+                picAnimal.BackgroundImage = Resources.Cachorro_leite;
             }
 
             if (tipoAnimal == "esquilo")
             {
-                picAnimal.BackgroundImage = Resources.Esquilo;//amamentar
+                picAnimal.BackgroundImage = Resources.Esquilo_leite;
             }
 
             if (tipoAnimal == "gato")
             {
-                picAnimal.BackgroundImage = Resources.Gato;//amamentar
+                picAnimal.BackgroundImage = Resources.Gato_leite;
             }
 
             if (tipoAnimal == "leao")
             {
-                picAnimal.BackgroundImage = Resources.Leão;//amamentar
+                picAnimal.BackgroundImage = Resources.Leao_leite;
             }
 
             if (tipoAnimal == "morcego")
             {
-                picAnimal.BackgroundImage = Resources.Morcego;//amamentar
+                picAnimal.BackgroundImage = Resources.Morcego_leite;
             }
 
             if (tipoAnimal == "ornitorrinco")
             {
-                picAnimal.BackgroundImage = Resources.Ornitorrinco;//amamentar
+                picAnimal.BackgroundImage = Resources.Ornitorrinco_leite;
             }
         }
     }
