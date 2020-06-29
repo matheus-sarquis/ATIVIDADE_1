@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ATIVIDADE_1
 {
@@ -11,6 +12,6 @@ namespace ATIVIDADE_1
         int AltitudeMax { get; set; }
         double VelocidadeVoo { get; set; }
 
-        void Voar();        
+        void Voar(ref PictureBox picAnimal);        
     }
 }

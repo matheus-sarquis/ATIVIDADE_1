@@ -43,6 +43,7 @@ namespace ATIVIDADE_1
 
         public void Chocar(ref PictureBox picAnimal)
         {           
+            //Ornitorrinco n choca ovo
         }
     }
 }

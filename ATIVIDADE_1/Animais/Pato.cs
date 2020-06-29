@@ -45,10 +45,15 @@ namespace ATIVIDADE_1
         {
             picAnimal.BackgroundImage = Resources.Pato_com_ovo;
         }
+
         public void Chocar(ref PictureBox picAnimal)
         {
             picAnimal.BackgroundImage = Resources.Pato_chocando;
         }
-        public void Voar() { }
+
+        public void Voar(ref PictureBox picAnimal)
+        {
+            picAnimal.Top = 0;
+        }
     }
 }

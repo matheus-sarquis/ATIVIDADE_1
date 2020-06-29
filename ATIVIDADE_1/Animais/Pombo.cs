@@ -31,7 +31,10 @@ namespace ATIVIDADE_1
             Peconhento = false;
         }
 
-        public void Voar() { }
+        public void Voar(ref PictureBox picAnimal)
+        {
+            picAnimal.Top = 0;
+        }
 
         public void Botar(ref PictureBox picAnimal)
         {

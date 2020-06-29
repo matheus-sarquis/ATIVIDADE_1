@@ -42,7 +42,10 @@ namespace ATIVIDADE_1
             picAnimal.BackgroundImage = Resources.Gavião_chocando;
         }
 
-        public void Voar() { }
+        public void Voar(ref PictureBox picAnimal)
+        {
+            picAnimal.Top = 0;
+        }
 
         public void Atacar(ref PictureBox picAnimal)
         {

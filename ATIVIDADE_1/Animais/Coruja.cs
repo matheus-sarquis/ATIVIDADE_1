@@ -42,6 +42,9 @@ namespace ATIVIDADE_1
             picAnimal.BackgroundImage = Resources.Coruja_chocando;
         }
 
-        public void Voar() { }        
+        public void Voar(ref PictureBox picAnimal)
+        {
+            picAnimal.Top = 0;
+        }        
     }
 }

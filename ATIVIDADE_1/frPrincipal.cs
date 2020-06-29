@@ -546,11 +546,10 @@ namespace ATIVIDADE_1
                 }
             }
         }
-        #endregion
 
         private void btnDireita_Click(object sender, EventArgs e)
         {
-            if(pbAnimal.Location.X < 770)
+            if (pbAnimal.Location.X < 770)
             {
                 pbAnimal.Left += 30;
             }
@@ -564,14 +563,14 @@ namespace ATIVIDADE_1
                 {
                     if (item is Baleia)
                     {
-                        if(pbAnimal.Location.X > 30)
+                        if (pbAnimal.Location.X > 30)
                         {
                             pbAnimal.Left -= 30;
                         }
                     }
-                    if(item is Cachorro)
+                    if (item is Cachorro)
                     {
-                        if(pbAnimal.Location.Y > 254)
+                        if (pbAnimal.Location.Y > 254)
                         {
                             pbAnimal.Left -= 30;
                         }
@@ -668,11 +667,33 @@ namespace ATIVIDADE_1
         {
             if (btnVoa.Text == "Voar")
             {
-                pbAnimal.Top = 0;
+                Point posicao = new Point(pbAnimal.Location.X, pbAnimal.Location.Y);
+                cbAnimal_SelectedIndexChanged(sender, e);
+                pbAnimal.Location = posicao;
+                foreach (var item in VG.animais)
+                {
+                    if (cbAnimal.Text == item.Nome)
+                    {
+                        if (item is Coruja)
+                            (item as Coruja).Voar(ref pbAnimal);
+
+                        if (item is Gaviao)
+                            (item as Gaviao).Voar(ref pbAnimal);
+
+                        if (item is Pombo)
+                            (item as Pombo).Voar(ref pbAnimal);
+
+                        if (item is Pato)
+                            (item as Pato).Voar(ref pbAnimal);
+
+                        if (item is Morcego)
+                            (item as Morcego).Voar(ref pbAnimal);
+                    }
+                }
                 btnAtaca.Enabled = false;
                 btnBota.Enabled = false;
                 btnComunica.Enabled = false;
-                btnChoca.Enabled = false;             
+                btnChoca.Enabled = false;
                 btnAmamenta.Enabled = false;
                 btnAlimenta.Enabled = false;
                 btnCisca.Enabled = false;
@@ -688,5 +709,6 @@ namespace ATIVIDADE_1
                 btnVoa.Text = "Voar";
             }
         }
+        #endregion        
     }
 }

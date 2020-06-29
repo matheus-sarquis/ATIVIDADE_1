@@ -56,7 +56,6 @@
     <Compile Include="Animais\Coruja.cs" />
     <Compile Include="Animais\Gaviao.cs" />
     <Compile Include="Animais\Esquilo.cs" />
-    <Compile Include="Classes\pIctureBox.cs" />
     <Compile Include="frAddAnimal.cs">
       <SubType>Form</SubType>
     </Compile>

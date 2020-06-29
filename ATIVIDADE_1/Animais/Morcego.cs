@@ -32,7 +32,10 @@ namespace ATIVIDADE_1
             Carnivoro = false;
             Peconhento = false;
         }
-        
-        public void Voar() { }        
+
+        public void Voar(ref PictureBox picAnimal)
+        {
+            picAnimal.Top = 0;
+        }
     }
 }
