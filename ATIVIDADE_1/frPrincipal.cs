@@ -19,109 +19,13 @@ namespace ATIVIDADE_1
         }
 
         #region metodos
-        public void MudaFoto(string nomAnimal, string acao)
-        {
-            foreach (var item in VG.animais)
-            {
-                if (nomAnimal == item.Nome)
-                {
-                    if (item is Baleia)
-                    {
-
-                        if (acao == "padrao")
-                            pbAnimal.BackgroundImage = Resources.Baleia;
-
-                    }
-
-                    if (item is Cachorro)
-                    {
-                        if (acao == "padrao")
-                            pbAnimal.BackgroundImage = Resources.Baleia;
-                        if (acao == "amamenta")
-                            pbAnimal.BackgroundImage = Resources.Baleia;
-                    }
-
-                    if (item is Coruja)
-                    {
-                        if (acao == "padrao")
-                            pbAnimal.BackgroundImage = Resources.Coruja;
-                        if (acao == "botar")
-                            pbAnimal.BackgroundImage = Resources.Coruja_com_ovo;
-                        if (acao == "chocar")
-                            pbAnimal.BackgroundImage = Resources.Coruja_chocando;
-                    }
-
-                    if (item is Esquilo)
-                    {
-
-                    }
-
-                    if (item is Gato)
-                    {
-
-                    }
-
-                    if (item is Gaviao)
-                    {
-                        if (acao == "padrao")
-                            pbAnimal.BackgroundImage = Resources.Gavião;
-                        if (acao == "botar")
-                            pbAnimal.BackgroundImage = Resources.Gavião_com_ovo;
-                        if (acao == "chocar")
-                            pbAnimal.BackgroundImage = Resources.Gavião_chocando;
-                    }
-
-                    if (item is Leao)
-                    {
-
-                    }
-
-                    if (item is Morcego)
-                    {
-
-                    }
-
-                    if (item is Ornitorrinco)
-                    {
-                        if (acao == "padrao")
-                            pbAnimal.BackgroundImage = Resources.Ornitorrinco;
-                        if (acao == "botar")
-                            pbAnimal.BackgroundImage = Resources.Ornitorrinco_com_ovo;
-                        if (acao == "chocar")
-                            pbAnimal.BackgroundImage = Resources.Ornitorrinco;
-                    }
-
-                    if (item is Pato)
-                    {
-
-                    }
-
-                    if (item is Pinguim)
-                    {
-
-                    }
-
-                    if (item is Pombo)
-                    {
-
-                    }
-
-                    if (item is Tartaruga)
-                    {
-
-                    }
-
-                    if (item is Tubarao)
-                    {
-
-                    }
-                }
-            }
-
-        }
+        
 
         public void MudaBtn(string texto)
         {
+            btnMovimenta.Text = "Movimentar";
+            btnEsquerda.Enabled = false;
+            btnDireita.Enabled = false;
             btnMovimenta.Enabled = false;
             btnComunica.Enabled = false;
             btnAlimenta.Enabled = false;
@@ -334,7 +238,7 @@ namespace ATIVIDADE_1
                             pbAnimal.BackgroundImage = Resources.Pombo;
                             pbAnimal.Location = new Point(300, 200);
                             pbAnimal.Size = new Size(152, 139);
-                            MudaBtn("135");
+                            MudaBtn("1354");
                         }
 
                         if (item is Tartaruga)
@@ -593,6 +497,9 @@ namespace ATIVIDADE_1
         {
             if (btnMovimenta.Text == "Movimentar")
             {
+                Point posicao = new Point(pbAnimal.Location.X, pbAnimal.Location.Y);
+                cbAnimal_SelectedIndexChanged(sender, e);
+                pbAnimal.Location = posicao;
                 btnAtaca.Enabled = false;
                 btnBota.Enabled = false;
                 btnComunica.Enabled = false;
@@ -601,13 +508,15 @@ namespace ATIVIDADE_1
                 btnAmamenta.Enabled = false;
                 btnAlimenta.Enabled = false;
                 btnCisca.Enabled = false;
-                cbAnimal_SelectedIndexChanged(sender, e);
                 btnDireita.Enabled = true;
                 btnEsquerda.Enabled = true;
                 btnMovimenta.Text = "Parar";
             }
             else
             {
+                Point posicao = new Point(pbAnimal.Location.X, pbAnimal.Location.Y);
+                cbAnimal_SelectedIndexChanged(sender, e);
+                pbAnimal.Location = posicao;
                 btnDireita.Enabled = false;
                 btnEsquerda.Enabled = false;
                 btnMovimenta.Text = "Movimentar";
@@ -752,6 +661,31 @@ namespace ATIVIDADE_1
                         }
                     }
                 }
+            }
+        }
+
+        private void btnVoa_Click(object sender, EventArgs e)
+        {
+            if (btnVoa.Text == "Voar")
+            {
+                pbAnimal.Top = 0;
+                btnAtaca.Enabled = false;
+                btnBota.Enabled = false;
+                btnComunica.Enabled = false;
+                btnChoca.Enabled = false;             
+                btnAmamenta.Enabled = false;
+                btnAlimenta.Enabled = false;
+                btnCisca.Enabled = false;
+                btnMovimenta.Enabled = false;
+                btnVoa.Text = "Pousar";
+            }
+            else
+            {
+                Point posicao = new Point(pbAnimal.Location.X);
+                cbAnimal_SelectedIndexChanged(sender, e);
+                posicao.Y = pbAnimal.Location.Y;
+                pbAnimal.Location = posicao;
+                btnVoa.Text = "Voar";
             }
         }
     }

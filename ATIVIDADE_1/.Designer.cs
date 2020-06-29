@@ -208,6 +208,7 @@
             this.btnVoa.TabIndex = 17;
             this.btnVoa.Text = "Voar";
             this.btnVoa.UseVisualStyleBackColor = false;
+            this.btnVoa.Click += new System.EventHandler(this.btnVoa_Click);
             // 
             // btnAmamenta
             // 
@@ -327,6 +328,7 @@
             this.Controls.Add(this.cbAnimal);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAddAnimal);
+            this.DoubleBuffered = true;
             this.Name = "frPrincipal";
             this.Text = "Menu";
             this.pAmbiente.ResumeLayout(false);
